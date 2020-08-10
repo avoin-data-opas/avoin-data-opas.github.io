@@ -22,15 +22,9 @@
 
            <p class="view">
              <h2><a href="{{ "/" | absolute_url }}">Lyhyesti</a></h2>
-             
-             <h3><a href="{{ "/" | absolute_url }}materiaalit">Missä materiaalit</a></h3>
-             <h3><a href="{{ "/" | absolute_url }}avaa">Miten avaan sivun</a></h3>
-             <h3><a href="{{ "/" | absolute_url }}muokkaa">Miten muokkaan sivua</a></h3>
-             <h3><a href="{{ "/" | absolute_url }}luo">Miten luon oman sivun</a></h3>
-             <h3><a href="{{ "/" | absolute_url }}tee-ja-tallenna">Miten tallennan vastaukset</a></h3>
            
              {% for subtopic in site.data.docs %}
-                <h3><a href="{{ "/" | absolute_url }}{{ subtopic.name }}">{{ subtopic.title }}</a></h3>
+                <h3><a href="{{ "/" | absolute_url }}{{ subtopic.name }}">{{ subtopic.title }}</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
              {% endfor %}
           </p> 
       </header>  
