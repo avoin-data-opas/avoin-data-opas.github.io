@@ -1,6 +1,3 @@
----
-layout: default
----
 ## Lyhyesti
 
 Täältä pääset nopeasti alkuun tai voit kerrata perusasiat, jos jo opitut taidot ovat päässeet unohtumaan.
