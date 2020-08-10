@@ -17,3 +17,7 @@
 - name: tee-ja-tallenna
   title: Miten tallennan vastaukset
   time: 10 min
+  
+- name: esimerkkisivu
+  title: Esimerkkisivu
+  time: 5 min
