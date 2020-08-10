@@ -3,10 +3,10 @@
 ### Tavoitteet
 
 
-| **Tällä sivulla selitetään:** |
+| Tällä sivulla selitetään: |
 | - joku asia |
 | - toinenkin asia |
----
+| --- |
 
 ### Kuva
 
