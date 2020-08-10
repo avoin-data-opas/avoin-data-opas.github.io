@@ -1,1 +1,16 @@
 theme: jekyll-theme-minimal
+title: Pikaohjeet lyhesti
+defaults:
+    -
+     scope:
+         path: "en"
+     values:
+         layout: default_en
+         lang: en
+         base-url: "/en/"
+    -
+     scope:
+         path: ""
+     values:
+         lang: fi
+         base-url: "/"
