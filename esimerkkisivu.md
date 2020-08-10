@@ -3,9 +3,10 @@
 ### Tavoitteet
 
 | :question: | Tällä sivulla vastataan seuraavaan:|
+|-|-|
 | | joku kysymys |
 | | joku toinen kysymys |
-|-|-|
+
 
 
 Tässä kuva
