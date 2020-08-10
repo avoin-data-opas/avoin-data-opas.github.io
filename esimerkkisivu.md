@@ -2,13 +2,9 @@
 
 ### Tavoitteet
 
+|`NOTE` | Tällä sivulla selitetään:|
+|-|-|
 
-| Tällä sivulla selitetään: |
-| - joku asia |
-| - toinenkin asia |
-| --- |
-
-### Kuva
 
 Tässä kuva
 ![Esimerkkikuva](/assets/img/binder-add-file.png)
