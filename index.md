@@ -5,8 +5,10 @@ layout: default
 
 Täältä pääset nopeasti alkuun tai voit kerrata perusasiat, jos jo opitut taidot ovat päässeet unohtumaan.
 
-- mistä löydän materiaalit ({{ site.doc.time[0] }})
-- kuinka avaan Jupyter notebook -sivun ({{ site.doc.time[1] }})
-- kuinka muokkaan materiaalia omaan käyttööni ({{ site.doc.time }})
-- kuinka luon kokonaan uuden jupyter notebook -sivun ({{ site.doc.time }})
-- kuinka oppilaat voivat tallentaa omat harjoituksensa ja avata ne uudestaan ({{ site.doc.time }})
+
+
+- mistä löydän materiaalit ({{ site.data.docs.time[0] }})
+- kuinka avaan Jupyter notebook -sivun ({{ site.data.docs.time[1] }})
+- kuinka muokkaan materiaalia omaan käyttööni ({{ site.data.docs.time[2] }})
+- kuinka luon kokonaan uuden jupyter notebook -sivun ({{ site.data.docs.time[3] }})
+- kuinka oppilaat voivat tallentaa omat harjoituksensa ja avata ne uudestaan ({{ site.data.docs.time[4] }})
