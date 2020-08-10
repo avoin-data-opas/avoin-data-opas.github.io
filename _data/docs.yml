@@ -1,0 +1,14 @@
+- name: materiaalit
+  title: Missä materiaalit
+
+- name: avaa
+  title: Miten avaan sivun
+
+- name: muokkaa
+  title: Miten muokkaan sivua
+  
+- name: luo
+  title: Miten luon oman sivun
+
+- name: tee-ja-tallenna
+  title: Miten tallennan vastaukset
