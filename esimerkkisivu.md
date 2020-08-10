@@ -2,7 +2,6 @@
 
 ### Tavoitteet
 
----
 | ? | Tällä sivulla vastataan seuraavaan:|
 |-|-|
 | 1 | joku kysymys |
@@ -25,5 +24,8 @@ jotain.koodia()
 
 ### Kertaus
 
-Seuraava 
+| ! | Olet oppinut: |
+|-|-|
+| 1 | joku vastaus |
+| 2 | joku toinen vastaus joka on oikein pitkä joka on oikein pitkä joka on oikein pitkä joka on oikein pitkä joka on oikein pitkä |
 
