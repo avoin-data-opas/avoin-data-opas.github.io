@@ -1,20 +1,20 @@
-## Esimerkkiotsikko
+# Esimerkkiotsikko
 
-### Tavoitteet
+## Tavoitteet
 
 | ? | Tällä sivulla vastataan seuraavaan:|
 |-|-|
 | 1 | joku kysymys |
 | 2 | joku toinen kysymys |
 
-### Lisää kuva
+## Lisää kuva
 
 Tässä kuva
 
 ![Esimerkkikuva](/assets/img/binder-add-file.png)
 
 
-### Koodia
+## Koodia
 
 ```python
 jotain.koodia()
@@ -22,7 +22,7 @@ jotain.koodia()
 
 
 
-### Kertaus
+## Kertaus
 
 | ! | Olet oppinut: |
 |-|-|
