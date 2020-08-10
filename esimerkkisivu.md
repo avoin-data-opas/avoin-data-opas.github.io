@@ -2,7 +2,8 @@
 
 ### Tavoitteet
 
-| :question: | Tällä sivulla vastataan seuraavaan:|
+---
+| ? | Tällä sivulla vastataan seuraavaan:|
 |-|-|
 | 1 | joku kysymys |
 | 2 | joku toinen kysymys |
