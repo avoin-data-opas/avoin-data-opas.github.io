@@ -2,7 +2,9 @@
 
 ### Tavoitteet
 
-|`NOTE` | Tällä sivulla selitetään:|
+| :question: | Tällä sivulla vastataan seuraavaan:|
+| | joku kysymys |
+| | joku toinen kysymys |
 |-|-|
 
 
