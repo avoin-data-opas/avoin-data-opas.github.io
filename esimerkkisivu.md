@@ -2,11 +2,10 @@
 
 ### Tavoitteet
 
----
-**Tällä sivulla selitetään:**
-- joku asia
-- toinenkin asia
 
+| **Tällä sivulla selitetään:** |
+| - joku asia |
+| - toinenkin asia |
 ---
 
 ### Kuva
