@@ -29,13 +29,8 @@
              <h3><a href="{{ "/" | absolute_url }}luo">Miten luon oman sivun</a></h3>
              <h3><a href="{{ "/" | absolute_url }}tee-ja-tallenna">Miten tallennan vastaukset</a></h3>
            
-             {% for topic in site.data.docs %}
-             "{{ topic }}", topic
-             {% if topic == lyhyesti %}
-                {% for subtopic in topic %}
+             {% for subtopic in site.data.docs %}
                 <h3><a href="{{ "/" | absolute_url }}{{ subtopic.name }}">{{ subtopic.title }}</a></h3>
-                {% endfor %}
-             {% endif %}
              {% endfor %}
           </p> 
       </header>  
