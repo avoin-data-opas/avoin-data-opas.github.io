@@ -5,7 +5,9 @@ layout: default
 
 Täältä pääset nopeasti alkuun tai voit kerrata perusasiat, jos jo opitut taidot ovat päässeet unohtumaan.
 
-
+{% for subtopic in site.data.docs %}
+                {{ subtopic.time }}
+{% endfor %}
 
 - mistä löydän materiaalit ({{ site.data.docs.time[0] }})
 - kuinka avaan Jupyter notebook -sivun ({{ site.data.docs.time[1] }})
