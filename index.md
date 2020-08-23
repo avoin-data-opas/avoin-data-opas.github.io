@@ -1,4 +1,4 @@
-## Python-ohjlemointi
+## Python-ohjelmointi
 
 Tähän juttua kärmeksestä kielenä ja työkaluna.
 
