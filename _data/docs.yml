@@ -1,23 +1,12 @@
-- name: materiaalit
-  title: Missä materiaalit
+- name: perusteet
+  title: Perusteet
   time: 10 min
 
-- name: avaa
-  title: Miten avaan sivun
+- name: kirjastot
+  title: Kirjastot ja moduulit
   time: 10 min
 
-- name: muokkaa
-  title: Miten muokkaan sivua
-  time: 20 min
-  
-- name: luo
-  title: Miten luon oman sivun
+- name: esimerkki
+  title: Esimerkkejä
   time: 20 min
 
-- name: tee-ja-tallenna
-  title: Miten tallennan vastaukset
-  time: 10 min
-  
-- name: esimerkkisivu
-  title: Esimerkkisivu
-  time: 5 min
