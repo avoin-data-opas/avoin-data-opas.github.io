@@ -1,23 +1,21 @@
-- name: materiaalit
-  title: Missä materiaalit
+- name: data
+  title: Mitä data on
   time: 10 min
 
-- name: avaa
-  title: Miten avaan sivun
+- name: mista
+  title: Mistä löydän dataa
   time: 10 min
 
-- name: muokkaa
-  title: Miten muokkaan sivua
+- name: muodot
+  title: Tiedostomuodoista
   time: 20 min
   
-- name: luo
-  title: Miten luon oman sivun
+- name: CMS-open-data
+  title: CMS ja avoin data
   time: 20 min
 
-- name: tee-ja-tallenna
-  title: Miten tallennan vastaukset
+- name: esimerkki
+  title: Esimerkkejä
   time: 10 min
   
-- name: esimerkkisivu
-  title: Esimerkkisivu
-  time: 5 min
+
