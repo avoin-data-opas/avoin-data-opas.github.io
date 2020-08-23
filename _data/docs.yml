@@ -13,6 +13,10 @@
 - name: CMS-open-data
   title: CMS ja avoin data
   time: 20 min
+  
+- name: muita
+  title: Muita konteksteja
+  time: 1530 min
 
 - name: esimerkki
   title: Esimerkkejä
