@@ -8,6 +8,15 @@ Raa'an tieteellisen datan lisäksi näistä aineistoista on karsittu tarkoitukse
 
 [Materiaalipankkimme](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/tree/master) löytyy GitHubista, tarjoten ensisijaisesti inspiraatiota opettajille omien materiaaliensa tekoon, ja tarjoaa muun muassa seuraavia mahdollisuuksia:
 
+Higgsin metsästystä
 
+KUVA
 
+Hiukkasten etsintää kahden myonin spektristä  
+
+KUVA
+
+Datan leikkelyä ja rajauskriteerejä
+
+![raj](../assets/img/eneRaj.png)
 
