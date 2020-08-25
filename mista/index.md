@@ -11,11 +11,10 @@ Valtavat määrät tutkimus- ja opetustason datasettejä. Valintatyökaluista vo
 ![](../assets/img/CERNportal.png)
 
 **Avoindata.fi**
-[https://www.avoindata.fi/fi](https://www.avoindata.fi/fi
-)
+[https://www.avoindata.fi/fi](https://www.avoindata.fi/fi)
 
 Kotimainen varasto erilaisille yhteiskunnallisille materiaaleille. Kaupunkien ilmanlaatumittauksia, kaupunkipyörien matkadataa, nimitietoja, liikennevälinerekisteri...
-![](../assets/img/avoindatafi.png)
+![](../assets/img/avoidatafi.png)
 
 **Our World in Data**
 [https://ourworldindata.org/](https://ourworldindata.org/)
