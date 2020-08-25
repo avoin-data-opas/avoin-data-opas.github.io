@@ -4,7 +4,7 @@ Jokainen tietokoneiden kanssa toiminut tietää, että informaatiota voidaan sii
 
 Ohjelmointia varten kannattaa suosia simppeleitä lista- tai taulukkomuotoisia tiedostoja, jotka ovat ns. koneluettavia. Esimerkiksi pdf-tiedostot sopivat hyvin ihmissilmille, mutta tietokoneet suosivat csv:n (comma separated values, pilkulla erotellut arvot) kaltaisia tekstilistauksia ja moni dataa jakava lähde jakaakin tietojaan näissä muodoissa. Vähäisen graafisen informaationsa vuoksi ne ovat usein myös tietokoneen muistin kannalta kevyitä ja kykenevät sisältämään suuria määriä dataa. Tällä sivulla käsitellyt harjoitteet käyttävät ensisijaisesti csv-tiedostoja.
 
-![sotku](/assets/img/csvMess.png)
+![sotku](blob/gh-pages/assets/img/csvMess.png)
 
 Pilkun sijaan tiedostossa voitaisiin käyttää erottimena sarkainta, puolipistettä tai muita symboleja. Joskus tiedoston lukeminen ohjelmaan ei onnistu, koska erotusmerkki on väärä. Tämä on useimmiten helppoa korjata tarkistamalla mitä merkkiä on käytetty ja vaihtamalla funktion erotusparametri vastaavaksi. Esimerkiksi Python 3 -kielessä pandas.read_cvs -komennon oletusasetus on sep = ",", minkä voisi vaihtaa vaikkapa muotoon sep = ";" jos kyseessä olisikin puolipiste. Tarkempi listaus löytyy komennon [dokumentaatiosta.](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 
