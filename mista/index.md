@@ -5,7 +5,7 @@ Käyttökelpoista dataa on verkko pullollaan, mutta sen löytäminen voi joskus 
 Muutamia hyviä paikkoja tietojen hakuun:
 
 **CERN Open Data Portal**
-[http://opendata.cern.ch/]
+<a>http://opendata.cern.ch/</a>
 
 Valtavat määrät tutkimus- ja opetustason datasettejä. Valintatyökaluista voi etsiä näppärästi esim. koeaseman ja tiedostotyypin mukaan haluamiaan materiaaleja.
 ![](../assets/img/CERNportal.png)
