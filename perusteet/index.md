@@ -2,13 +2,13 @@
 
 Python kielenä pyrkii minimalismiin. Suunnittelufilosofiaa avaava [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python) kertoo muun muassa seuraavaa:
 
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
+- Beautiful is better than ugly.
+- Explicit is better than implicit.
+- Simple is better than complex.
+- Complex is better than complicated.
+- Flat is better than nested.
+- Sparse is better than dense.
+- Readability counts.
 
 Tämä näkyy heti alusta lähtien siinä, ettei käyttäjän tarvitse erityisemmin määritellä luokkia tai sählätä kansiorakenteiden kanssa.
 
