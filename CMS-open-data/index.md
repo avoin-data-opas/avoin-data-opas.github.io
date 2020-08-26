@@ -10,11 +10,11 @@ Raa'an tieteellisen datan lisäksi näistä aineistoista on karsittu tarkoitukse
 
 Higgsin metsästystä
 
-KUVA
+![higgs](../assets/img/higgsOD.png)
 
 Hiukkasten etsintää kahden myonin spektristä  
 
-KUVA
+![dimuon](../assets/img/dimuon.png)
 
 Datan leikkelyä ja rajauskriteerejä
 
