@@ -13,7 +13,7 @@ import numpy as np # tässä paketissa on numeerisia laskentatyökaluja, kuten p
 
 # Tämän latauksen jälkeen paketeista voidaan kiskoa työkaluja ulos.
 
-data = pd.read_csv("LinkkiKohteeseen")
+data = pd.read_csv("LinkkiKohteeseen.csv")
 
 h = 4/np.pi
 
