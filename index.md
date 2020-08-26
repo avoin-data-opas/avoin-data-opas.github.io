@@ -1,8 +1,5 @@
 ## Python-ohjelmointi
 
-Tähän juttua kärmeksestä kielenä ja työkaluna.
+Python on syntaksiltaan intuitiivinen ja erityisesti aloittelijoille sopiva tulkattava ohjelmointikieli, joka tarjoaa kuitenkin vaativaan tieteelliseen laskentaankin sopivia työkaluja. Sen etuihin kuuluvat mm. helppo laajennettavuus muiden tekemillä kirjastoilla ja kevyempi käyttökokemus verrattuna vaikkapa Javaan tai C-kieleen.
 
-- Intuitiivinen ja aloittelijaystävällinen
-- Monipuolinen ja suorituskykyinen
-- Käytössä ympäri maailman niin yrityksissä kuin tutkimuspiireissäkin
-- jne.
+Hyvä lähtökohta on, että lähes aina kohdatessasi ongelman joku on jo ratkaissut sen, kunhan osaat googlata ohjeisiin (ja katsoo niiden olevan nykyversioille 3.X, sillä vanhemmat 2.X versioiden komennot eivät välttämättä toimi).
