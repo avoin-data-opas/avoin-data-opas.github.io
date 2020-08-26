@@ -1,9 +1,9 @@
 ## Datasta ja avoimuudesta
 
-Täällä puhutaan datasta, mistä sitä saa ja mitä sillä voi puuhata.
+Näiltä sivuilta löydät:
 
-- mistä sitä saa
-- missä muodoissa sitä on helppoa käsitellä
-- CMS Open Data
-- omat projektit
-- jne.
+- pikakatsauksen datan luonteeseen
+- linkkejä erilaisiin verkkosivuihin, mistä voit etsiä käyttöösi aineistoja
+- katsauksen näppäriin tiedostomuotoihin
+- CMS:n avoin data opetuskäytössä -projektin
+- esimerkkejä eri aihealueisiin
