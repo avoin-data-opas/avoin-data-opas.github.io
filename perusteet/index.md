@@ -12,7 +12,7 @@ Python kielenä pyrkii minimalismiin. Suunnittelufilosofiaa avaava [Zen of Pytho
 
 Tämä näkyy heti alusta lähtien siinä, ettei käyttäjän tarvitse erityisemmin määritellä luokkia tai sählätä kansiorakenteiden kanssa.
 
-Yksinkertainen Python-skripti voisi esimerkiksi sisältää sopivien työkalujen tuomisen (*import*), halutun datasetin lukemisen ja siitä kuvaajan piirtämisen.
+Yksinkertainen Python-skripti voisi esimerkiksi sisältää sopivien työkalujen tuomisen (**import**), halutun datasetin lukemisen ja siitä kuvaajan piirtämisen.
 
 ````python
 import pandas as pd
