@@ -16,7 +16,7 @@ import numpy as np # tässä paketissa on numeerisia laskentatyökaluja, kuten p
 data = pd.read_csv("LinkkiKohteeseen")
 
 h = 4/np.pi
-print(h)
+
 ````
 
 Internetin hakukoneilla löytää hyvin nopeasti kulloinkin tarvittavia paketteja, mutta kannattaa huomata ettei näihin pääse suoraan käsiksi kaikista ympäristöistä. Paketteja voi ladata koneelleen PIP-käskyllä (preferred installer program, useimpiin ympäristöihin sisäänrakennettu työkalu pakettien asennukseen komentorivin kautta) tai selainympäristössä (MyBinder, CoLab...) mainitsemalla ne etukäteen requirements.txt -tiedostossa, jonka pohjalta virtuaalinen työtila rakennetaan.
