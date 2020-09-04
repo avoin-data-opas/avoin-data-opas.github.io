@@ -1,7 +1,7 @@
 ## Uuden Notebookin luominen
 
-Voit avata uuden tiedoston joko avonaisen valikon tai kohdekansion kautta.
+Voit luoda uuden muistion joko avonaisen tiedoston tai kohdekansion valikon kautta.
 
-Kuva avonaisesta tiedostosta.
+![new](../assets/img/new.png)
 
-Kuva puurakenteesta.
+![new](../assets/img/tree2.png)
