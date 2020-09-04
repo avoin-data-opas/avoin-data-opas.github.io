@@ -10,7 +10,7 @@ työpajatoimintaan, mutta pidempiä kotiprojekteja varten kannattaa suosiolla la
 
 #### MyBinder
 
-1. Etsi sopivan muistion tai GitHub-repon osoite, esim. https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb
+1. Etsi sopivan muistion tai GitHub-repon osoite, esim. [https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb)
 
 
 2. Avaa [MyBinder](https://mybinder.org), joka rakentaa virtuaalisen työtilan. Sivu näyttää suunnilleen tältä:
@@ -18,7 +18,7 @@ työpajatoimintaan, mutta pidempiä kotiprojekteja varten kannattaa suosiolla la
 ![binder](../assets/img/Binder.png)
 
 
-3. Kopioi ensimmäisen kohdan osoite kenttiin, joko pelkkä https://github.com/cms-opendata-education/cms-jupyter-materials-finnish (rakentaa koko repon ja avaa puurakenteen) tai suoraan tiedostoon paloittelemalla linkki tähän tapaan:
+3. Kopioi ensimmäisen kohdan osoite kenttiin, joko pelkkä [https://github.com/cms-opendata-education/cms-jupyter-materials-finnish](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish) (rakentaa koko repon ja avaa puurakenteen) tai suoraan tiedostoon paloittelemalla linkki tähän tapaan:
 
 ![binder](../assets/img/Binder2.png)
  
