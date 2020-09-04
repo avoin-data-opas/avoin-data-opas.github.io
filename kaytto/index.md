@@ -4,7 +4,10 @@
 
 <p>Selaimessa ajettaessa ei tarvitse tehdä mitään latauksia ja materiaaleihin pääsee yleensä parissa minuutissa käsiksi, mutta tämä vaatii jatkuvaa verkkoyhteyttä
 ja on usein aikarajoitettua (MyBinder esimerkiksi irrottaa yhteyden, mikäli materiaaleille ei tehdä mitään reiluun varttiin). Sopii hyvin esimerkiksi demoihin tai intensiiviseen
-työpajatoimintaan, mutta pidempiä kotiprojekteja varten kannattaa suosiolla ladata koneelleen sopiva sovellus tätä varten.</p>
+työpajatoimintaan, mutta pidempiä kotiprojekteja varten kannattaa suosiolla ladata koneelleen sopiva sovellus tätä varten.
+
+Tällä sivulla on ensin ohjeet muistioiden avaamiseen ja sitten esimerkkikuvia niiden käyttämisestä.
+</p>
 
 ### I Pikaohje selaimessa avaamiseen
 
@@ -62,4 +65,25 @@ työpajatoimintaan, mutta pidempiä kotiprojekteja varten kannattaa suosiolla la
 
 
 ### II Pikaohje omalla koneella toimimiseen
+
+1. Asenna koneellesi sopiva sovellus, kuten itse [Jupyter Notebook](https://jupyter.org/) tai laajempi datatieteen paketti kuten [Anaconda](https://www.anaconda.com/products/individual), jossa on aiempi mukana.
+
+2. Avaa äskeinen (Anacondan tapauksessa löytynee nimellä Anaconda Launcher).
+
+3. Valitse "Jupyter Notebook", joka avaa verkkoselaimeesi koneesi paikallisen puurakenteen. 
+
+![ana](../assets/img/ana.png)
+
+![tree](../assets/img/tree.png)
+
+4. Etsi tiedostoistasi haluamasi muistio ja käy töihin.
+
+5. Jos haluat tehdä uusia muistioita, navigoi itsesi puussa kansioon johon haluat tehdä uuden tiedoston ja paina "New" nappia.
+
+![new](../assets/img/tree2.png)
+
+
+### Varsinainen työskentely Notebookien kanssa
+
+
 
