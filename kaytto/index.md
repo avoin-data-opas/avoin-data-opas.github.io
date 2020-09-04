@@ -67,7 +67,7 @@ VII Sama juttu pikalinkkien kanssa, Colabiinkin voi viitata suoraan yhdellä kli
 
 I Asenna koneellesi sopiva sovellus, kuten itse [Jupyter Notebook](https://jupyter.org/) tai laajempi datatieteen paketti kuten [Anaconda](https://www.anaconda.com/products/individual), jossa on aiempi mukana.
 
-II Avaa äskeinen (Anacondan tapauksessa löytynee nimellä Anaconda Launcher).
+II Avaa äskeinen (Anacondan tapauksessa löytynee nimellä Anaconda Navigator).
 
 III Valitse "Jupyter Notebook", joka avaa verkkoselaimeesi koneesi paikallisen puurakenteen. 
 
