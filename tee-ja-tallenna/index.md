@@ -14,8 +14,8 @@ Tämän voi tehdä vaikka yhteys ytimeen olisikin katkennut. MyBinderissa on nyk
 2. Käynnistä Binder-sessio uudelleen.
 3. Avaa sama muistio kuin aiemmin.
 4. Paina palautusnappia.
-5. Tadaa!
+5. Tadaa! Tarkempia tietoja ja yllä oleva gif [täältä](https://discourse.jupyter.org/t/getting-your-notebook-after-your-binder-has-stopped/3268)
 
-Googlen CoLabia käyttäessä on mahdollista tallentaa suoraan Driveen.
+Googlen CoLabia käyttäessä on mahdollista tallentaa suoraan Driveen eikä siinä ole samanlaista aikarajoitusta kuin ilmaiseksi lahjoituksilla pyörivässä MyBinderissa, mutta se vaatii integroitumisen Googlen järjestelmiin mm. googletilin kautta.
 
 
