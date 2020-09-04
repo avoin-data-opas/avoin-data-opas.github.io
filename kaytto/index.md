@@ -11,13 +11,22 @@ työpajatoimintaan, mutta pidempiä kotiprojekteja varten kannattaa suosiolla la
 #### MyBinder
 <p>
 1. Etsi sopivan muistion tai GitHub-repon osoite, esim. https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb
+</p>
+<p>
 2. Avaa [MyBinder](https://mybinder.org), joka rakentaa virtuaalisen työtilan. Sivu näyttää suunnilleen tältä:
   ![binder](../assets/img/Binder.png)
+  </p>
+  <p>
 3. Kopioi ensimmäisen kohdan osoite kenttiin, joko pelkkä https://github.com/cms-opendata-education/cms-jupyter-materials-finnish (rakentaa koko repon ja avaa puurakenteen) tai suoraan tiedostoon paloittelemalla linkki tähän tapaan:
   ![binder](../assets/img/Binder2.png)
+  </p>
+  <p>
 4. Paina "launch" ja odota hetki.
+  </p>
+  <p>
 5. Käy hommiin!
-  
+  </p>
+<p>  
 6. Opetushommia ajatellen, huomaa kuvan alaosassa näkyvä valmiiden materiaalien jakolinkki joka on helppoa upottaa verkkosivuille tai viesteihin niin että opiskelijat pääsevät suoraan töihin yhdellä klikkauksella. Esimerkiksi äskeisen harjoitteen saa Binderilla auki tästä HTML-napista painamalla:
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FHiggs-hakusessa-4-leptonia.ipynb)
 </p>
