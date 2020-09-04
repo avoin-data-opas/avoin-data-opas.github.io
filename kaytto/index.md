@@ -1,4 +1,4 @@
-## Miten Jupyter Notebookeja käytetään?
+## Jupyter Notebookien käyttöönotto
 
 <p>Jupyter Notebookeja voi käsitellä joko lokaalisti omalta tietokoneeltaan tai verkon yli selaimella virtuaalisella työtasolla.</p>
 
@@ -6,7 +6,6 @@
 ja on usein aikarajoitettua (MyBinder esimerkiksi irrottaa yhteyden, mikäli materiaaleille ei tehdä mitään reiluun varttiin). Sopii hyvin esimerkiksi demoihin tai intensiiviseen
 työpajatoimintaan, mutta pidempiä kotiprojekteja varten kannattaa suosiolla ladata koneelleen sopiva sovellus tätä varten.
 
-Tällä sivulla on ensin ohjeet muistioiden avaamiseen ja sitten esimerkkikuvia niiden käyttämisestä.
 </p>
 
 ### I Pikaohje selaimessa avaamiseen
@@ -83,7 +82,6 @@ Tällä sivulla on ensin ohjeet muistioiden avaamiseen ja sitten esimerkkikuvia 
 ![new](../assets/img/tree2.png)
 
 
-### Varsinainen työskentely Notebookien kanssa
 
 
 
