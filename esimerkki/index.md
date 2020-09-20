@@ -2,28 +2,28 @@
 
 Tehdään helppo esimerkki!
 
-1. Etsitään aineistoa, kuten vaikka aikasarja auringonpilkuista [SIDC:n sivuilta](http://sidc.oma.be/silso/datafiles).
-2. Tehdään muistio joka pystyy avaamaan sen:
+- Etsitään aineistoa, kuten vaikka aikasarja auringonpilkuista [SIDC:n sivuilta](http://sidc.oma.be/silso/datafiles).
+- Tehdään muistio joka pystyy avaamaan sen:
 
 ![kuva](../assets/img/aurinko1.png)
 
-3. Lukeminen näyttää alkaneen huonosta kohtaa, käsketääs tulokseen mukaan otsikkorivi:
+- Lukeminen näyttää alkaneen huonosta kohtaa, käsketääs tulokseen mukaan otsikkorivi:
 
 ![kuva](../assets/img/aurinko2.png)
 
-4. No ei nyt ihan mennyt putkeen tämäkään, mutta huomaamme että syynähän on huonosti muotoiltu taulukko. Oletuserotin pd.read_csv() -komennolle on pilkku, mutta datassa näkyy puolipisteitä. Korjataan parametrilla "sep":
+- No ei nyt ihan mennyt putkeen tämäkään, mutta huomaamme että syynähän on huonosti muotoiltu taulukko. Oletuserotin pd.read_csv() -komennolle on pilkku, mutta datassa näkyy puolipisteitä. Korjataan parametrilla "sep":
 
 ![kuva](../assets/img/aurinko3.png)
 
-5. Parempi. Nyt voi tietysti ihmetellä saisiko sarakkeet nimettyä paremmin, jos katsoo mitä kukin tarkoittaa (selitys SIDC:n sivuilla). Käytetään "names"-parametria latauksen yhteydessä. Voisi nämä nimetä muuttujassakin, mutta samalla vaivalla se pienillä tiedostoilla menee tässäkin.
+- Parempi. Nyt voi tietysti ihmetellä saisiko sarakkeet nimettyä paremmin, jos katsoo mitä kukin tarkoittaa (selitys SIDC:n sivuilla). Käytetään "names"-parametria latauksen yhteydessä. Voisi nämä nimetä muuttujassakin, mutta samalla vaivalla se pienillä tiedostoilla menee tässäkin.
 
 ![kuva](../assets/img/aurinko4.png)
 
-6. No johan alkaa näyttää ymmärrettävältä informaatiolta! Otetaan nopea kuvaaja pohjoisen ja eteläisen auringonpuoliskon pilkkuluvuista:
+- No johan alkaa näyttää ymmärrettävältä informaatiolta! Otetaan nopea kuvaaja pohjoisen ja eteläisen auringonpuoliskon pilkkuluvuista:
 
 ![kuva](../assets/img/aurinko5.png)
 
-7. Hahaa, voiton puolella. Tehdään vielä joukko muotoilutoimenpiteitä paremman esityksen nimissä:
+- Hahaa, voiton puolella. Tehdään vielä joukko muotoilutoimenpiteitä paremman esityksen nimissä:
 
 ![kuva](../assets/img/aurinko6.png)
 
