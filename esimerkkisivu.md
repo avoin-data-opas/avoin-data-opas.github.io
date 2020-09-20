@@ -5,7 +5,7 @@ Tehdään helppo esimerkki!
 - Etsitään aineistoa, kuten vaikka aikasarja auringonpilkuista [SIDC:n sivuilta](http://sidc.oma.be/silso/datafiles).
 - Tehdään muistio joka pystyy avaamaan sen:
 
-![kuva](../assets/img/aurinko1.png)
+![kuva](assets/img/aurinko1.png)
 
 - Lukeminen näyttää alkaneen huonosta kohtaa, käsketääs tulokseen mukaan otsikkorivi:
 
