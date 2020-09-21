@@ -2,7 +2,7 @@
 
 Vaikka CMS-painotteisen projektimme ytimessä toimivatkin hiukkasfyysikot ja aiheesta kiinnostuneet opettajat, maailma on täynnä kiinnostavia tietoaineistoja muihinkin tarpeisiin. "Mistä löydän dataa"-sivulta löydät linkkejä hyviin tietolähteisiin, täältä taas valmiisiin harjoitteisiin.
 
-**Meidän töitämme:**
+### Meidän töitämme:
 
 #### CERN_henkilosto.ipynb [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FCERN_henkilosto.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/CERN_henkilosto.ipynb)
 - Keitä CERN:ssä työskentelee?
@@ -22,8 +22,7 @@ Vaikka CMS-painotteisen projektimme ytimessä toimivatkin hiukkasfyysikot ja aih
 #### Ääntä-datasta.ipynb [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2F%25C3%2584%25C3%25A4nt%25C3%25A4-datasta.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/%C3%84%C3%A4nt%C3%A4-datasta.ipynb)
 - Miten datan voi muuttaa ääneksi?
 
-**Muita vapaita materiaaleja verkosta:**
+### Muita vapaita materiaaleja verkosta:
 
--
--
+
 -
