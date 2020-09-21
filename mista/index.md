@@ -35,7 +35,7 @@ Pitkäaikaista dataa Auringon aktiivisuudesta, auringonpilkkujen mittaukset ylt�
 **USGS Earthquake Hazards**
 [https://earthquake.usgs.gov/earthquakes/feed/](https://earthquake.usgs.gov/earthquakes/feed/)
 
-Hetkittäin päivittyvää dataa maailman maanjäristystilanteesta, saatavilla myäs csv-muodossa (spreadsheets)
+Hetkittäin päivittyvää dataa maailman maanjäristystilanteesta, saatavilla myös csv-muodossa (spreadsheets)
 
 **Awesome Public Datasets**
 [https://github.com/awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
