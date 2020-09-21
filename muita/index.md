@@ -5,7 +5,7 @@ Vaikka CMS-painotteisen projektimme ytimessä toimivatkin hiukkasfyysikot ja aih
 ### Meidän töitämme:
 
 #### CERN_henkilosto.ipynb [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FCERN_henkilosto.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/CERN_henkilosto.ipynb)
-- Keitä CERN:ssä työskentelee?
+- Keitä CERNissä työskentelee?
 
 #### Kartat_esim.ipynb [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FKartat_esim.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/Kartat_esim.ipynb)
 - Esimerkki karttojen käytöstä Pythonilla
