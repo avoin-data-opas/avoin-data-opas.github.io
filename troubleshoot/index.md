@@ -17,7 +17,7 @@ Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäise
 ### Yhyy, en osaa?
 
 Nou hätä, kukaan ei aloita mestarina. Tekemällä oppii ja virheet kuuluvat asiaan.
-Pythonissa on kivana puolena sen laaja käyttäjäkunta: mitä ikinä keksitkään kysyä, et ole ensimmäinen ja vastaus luultavasti löytyy ensimmäisten googlaustulosten joukosta.
+Pythonissa on kivana puolena sen laaja käyttäjäkunta: mitä ikinä keksitkään kysyä, et ole ensimmäinen ja vastaus luultavasti löytyy ensimmäisten googlaustulosten joukosta (esim. StackExchange on hyvä paikka vastausten löytämiseen).
 Tässä on ohjeita muutamiin yleisimpiin ongelmatilanteisiin.
 
 ### Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?
@@ -37,7 +37,7 @@ Muista myös kirjainkoon tarkka merkitys.
 
 ### Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?
 
-Tallennuksessasi on jokin ongelma. Muista aina tallentaa tekemäsi operaatiot muuttuujaan, eli esimerkiksi
+Tallennuksessasi on jokin ongelma. Muista aina tallentaa tekemäsi operaatiot muuttujaan, eli esimerkiksi
 ```python
 muuttuja = ... lataus datasta
 muuttuja = muuttuja*2
@@ -58,7 +58,7 @@ Jakomerkit, otsikkorivit ja vastaavat voit määrittää lukufunktion parametrei
 ```python
 pd.read_csv('linkki tiedostoon', sep = ';')
 ```
-avaisi puolipisteellä erotetun csv:n. Lisää ylempänä dataa käsittelevässä kappaleessa 3.
+avaisi puolipisteellä erotetun csv:n.
 
 **pd.read_table()** voi auttaa selvittämään datan luonnetta jos ei jaksa avata tekstieditoria.
 
