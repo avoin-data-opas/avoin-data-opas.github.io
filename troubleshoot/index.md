@@ -2,16 +2,16 @@
 
 Kooste:
 
-Yhyy, en osaa?  
-Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?  
-Virheilmoitus herjaa 'nimi is not defined' tai 'nimi does not exist'?  
-Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?  
-Datani ei suostu lataamaan?  
-Lataamassani datassa on jotain omituisia 'NaN'-arvoja?  
-Yhdistin palasia datasta, mutta nyt en enää pysty tekemään asioita uudella muuttujallani?  
-Koodini ei toimi, vaikka se on ihan varmasti oikein kirjoitettu?  
-Datan päivämäärät sekoittavat toiminnan, miten korjaan?  
-Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?  
+- Yhyy, en osaa?  
+- Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?  
+- Virheilmoitus herjaa 'nimi is not defined' tai 'nimi does not exist'?  
+- Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?  
+- Datani ei suostu lataamaan?  
+- Lataamassani datassa on jotain omituisia 'NaN'-arvoja?  
+- Yhdistin palasia datasta, mutta nyt en enää pysty tekemään asioita uudella muuttujallani?  
+- Koodini ei toimi, vaikka se on ihan varmasti oikein kirjoitettu?  
+- Datan päivämäärät sekoittavat toiminnan, miten korjaan?  
+- Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?  
 
 
 ### Yhyy, en osaa?
