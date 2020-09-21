@@ -36,3 +36,8 @@ Pitk채aikaista dataa Auringon aktiivisuudesta, auringonpilkkujen mittaukset ylt�
 [https://earthquake.usgs.gov/earthquakes/feed/](https://earthquake.usgs.gov/earthquakes/feed/)
 
 Hetkitt채in p채ivittyv채채 dataa maailman maanj채ristystilanteesta, saatavilla my채s csv-muodossa (spreadsheets)
+
+**Awesome Public Datasets**
+[https://github.com/awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
+
+Iso kokoelma eri alojen julkisia aineistoja videopeleist채 pankkidataan tai neurotieteisiin, nimellisesti kuratoitu saatavuuden mukaan.
