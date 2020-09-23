@@ -21,3 +21,9 @@ Datan leikkelyä ja rajauskriteerejä
 
 ![raj](../assets/img/eneRaj.png)
 
+Jos etsit nopeaa sisäänheittoa, suuntaa [Työkalut tutuksi -osioon](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/tree/master/TyokalutTutuiksi).
+
+Jos etsit mallia oppikokonaisuuksiin, suuntaa [tänne](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/tree/master/Opetusmateriaalit).
+
+Jos haluat kokeilla itsenäisempiä esimerkkimuistioita vaikka työpajapuuhiin, suuntaa [demojen pariin](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/tree/master/Demot).
+
