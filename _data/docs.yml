@@ -1,16 +1,68 @@
 - name: lyhyesti
+  url: /lyhyesti.html
+  category: lyhyesti
   title: Lyhyesti
   title-en: Quickstart
+  subfolderitems:
+  - name: materiaalit
+    url: /lyhyesti/materiaalit.html
+    category: lyhyesti
+    title: Missä materiaalit
+    time: 10 min
+  - name: avaa
+    url: /lyhyesti/avaa.html
+    category: lyhyesti
+    title: Miten avaan sivun
+    time: 10 min
+  - name: muokkaa
+    url: /lyhyesti/muokkaa.html
+    category: lyhyesti
+    title: Miten muokkaan sivua
+    time: 20 min
+  - name: luo
+    url: /lyhyesti/luo.html
+    category: lyhyesti
+    title: Miten luon oman sivun
+    time: 20 min
+  - name: tee-ja-tallenna
+    url: /lyhyesti/tee-ja-tallenna.html
+    category: lyhyesti
+    title: Miten tallennan vastaukset
+    time: 10 min
+  - name: esimerkkisivu
+    url: /lyhyesti/esimerkkisivu.html
+    category: lyhyesti
+    title: Esimerkkisivu
+    time: 5 min
   
 - name: jupyter
+  url: /jupyter.html
+  category: jupyter
   title: Jupyter Notebooks -ympäristö
   title-en: Jupyter Notebooks
+  subfolderitems:
+  - name: a
+    url: /jupyter/a.html
+    category: jupyter
+    title: A
+  - name: b
+    url: /jupyter/b.html
+    category: jupyter
+    title: B
+  - name: c
+    url: /jupyter/c.html
+    category: jupyter
+    title: C
   
 - name: python
+  url: /python.html
+  category: python
   title: Pohjatiedot Python-kielestä
   title-en: Basic Python
   
 - name: data
+  url: /data.html
+  category: data
   title: Alkuun datan kanssa
   title-en: Getting started with data
   
