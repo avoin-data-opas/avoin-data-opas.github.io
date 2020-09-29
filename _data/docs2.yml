@@ -1,0 +1,25 @@
+- name: data
+  title: Mitä data on
+  time: 10 min
+
+- name: mista
+  title: Mistä löydän dataa
+  time: 10 min
+
+- name: muodot
+  title: Tiedostomuodoista
+  time: 20 min
+  
+- name: CMS-open-data
+  title: CMS ja avoin data
+  time: 20 min
+  
+- name: muita
+  title: Muita konteksteja
+  time: 1530 min
+
+- name: esimerkki
+  title: Esimerkkejä
+  time: 10 min
+  
+
