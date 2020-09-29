@@ -1,0 +1,13 @@
+- name: tiedot
+  title: Mistä on kyse
+  time: 10 min
+  
+- name: kaytto
+  title: Käyttöönotto
+  time: 10 min
+  
+- name: muokkaus
+  title: Materiaalien kanssa työskentely
+  time: 10 min
+  
+  
