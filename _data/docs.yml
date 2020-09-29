@@ -1,16 +1,144 @@
 - name: lyhyesti
+  url: /lyhyesti.html
+  category: lyhyesti
   title: Lyhyesti
   title-en: Quickstart
+
+  subfolderitems:
+  - name: materiaalit
+    url: /lyhyesti/materiaalit.html
+    category: lyhyesti
+    title: Missä materiaalit
+    time: 10 min
+
+  - name: avaa
+    url: /lyhyesti/avaa.html
+    category: lyhyesti
+    title: Miten avaan sivun
+    time: 10 min
+
+  - name: muokkaa
+    url: /lyhyesti/muokkaa.html
+    category: lyhyesti
+    title: Miten muokkaan sivua
+    time: 20 min
+
+  - name: luo
+    url: /lyhyesti/luo.html
+    category: lyhyesti
+    title: Miten luon oman sivun
+    time: 20 min
+
+  - name: tee-ja-tallenna
+    url: /lyhyesti/tee-ja-tallenna.html
+    category: lyhyesti
+    title: Miten tallennan vastaukset
+    time: 10 min
+    
+  - name: esimerkkisivu
+    url: /lyhyesti/esimerkkisivu.html
+    category: lyhyesti
+    title: Esimerkkisivu
+    time: 5 min
   
 - name: jupyter
+  url: /jupyter.html
+  category: jupyter
   title: Jupyter Notebooks -ympäristö
   title-en: Jupyter Notebooks
+
+  subfolderitems:
+  - name: tiedot
+    url: /jupyter/tiedot.html
+    category: jupyter
+    title: Mistä on kyse
+    time: 10 min
+    
+  - name: kaytto
+    url: /jupyter/kaytto.html
+    category: jupyter
+    title: Käyttöönotto
+    time: 10 min
+    
+  - name: muokkaus
+    url: /jupyter/muokkaus.html
+    category: jupyter
+    title: Materiaalien kanssa työskentely
+    time: 10 min
+
   
 - name: python
+  url: /python.html
+  category: python
   title: Pohjatiedot Python-kielestä
   title-en: Basic Python
+
+  subfolderitems:
+  - name: perusteet
+    url: /python/perusteet.html
+    category: python
+    title: Perusteet
+    time: 10 min
+
+  - name: kirjastot
+    url: /python/kirjastot.html
+    category: python
+    title: Kirjastot ja moduulit
+    time: 10 min
+
+  - name: esimerkki
+    url: /python/esimerkki.html
+    category: python
+    title: Esimerkkejä
+    time: 20 min
+
+  - name: troubleshoot
+    url: /python/troubleshoot.html
+    category: python
+    title: Ongelmia?
+    time: 20 min
+
   
 - name: data
+  url: /data.html
+  category: data
   title: Alkuun datan kanssa
   title-en: Getting started with data
+
+  subfolderitems:
+  - name: mita
+    url: /data/mita.html
+    category: data
+    title: Mitä data on
+    time: 10 min
+
+  - name: mista
+    url: /data/mista.html
+    category: data
+    title: Mistä löydän dataa
+    time: 10 min
+
+  - name: muodot
+    url: /data/muodot.html
+    category: data
+    title: Tiedostomuodoista
+    time: 20 min
+
+  - name: CMS-open-data
+    url: /data/CMS-open-data.html
+    category: data
+    title: CMS ja avoin data
+    time: 20 min
+
+  - name: muita
+    url: /data/muita.html
+    category: data
+    title: Muita konteksteja
+    time: 1530 min
+
+  - name: esimerkki
+    url: /data/esimerkki.html
+    category: data
+    title: Esimerkkejä
+    time: 10 min
   
