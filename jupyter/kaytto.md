@@ -1,3 +1,7 @@
+---
+category: jupyter
+---
+
 ## Jupyter Notebookien käyttöönotto
 
 <p>Jupyter Notebookeja voi käsitellä joko lokaalisti omalta tietokoneeltaan tai verkon yli selaimella virtuaalisella työtasolla.</p>

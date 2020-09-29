@@ -48,20 +48,24 @@
   title-en: Jupyter Notebooks
 
   subfolderitems:
-  - name: a
-    url: /jupyter/a.html
+  - name: tiedot
+    url: /jupyter/tiedot.html
     category: jupyter
-    title: A
+    title: Mistä on kyse
+    time: 10 min
+    
+  - name: kaytto
+    url: /jupyter/kaytto.html
+    category: jupyter
+    title: Käyttöönotto
+    time: 10 min
+    
+  - name: muokkaus
+    url: /jupyter/muokkaus.html
+    category: jupyter
+    title: Materiaalien kanssa työskentely
+    time: 10 min
 
-  - name: b
-    url: /jupyter/b.html
-    category: jupyter
-    title: B
-
-  - name: c
-    url: /jupyter/c.html
-    category: jupyter
-    title: C
   
 - name: python
   url: /python.html

@@ -6,10 +6,13 @@ category: lyhyesti
 
 Täältä pääset nopeasti alkuun tai voit kerrata perusasiat, jos jo opitut taidot ovat päässeet unohtumaan.
 
-<!-- The time values come from the _data/docs.yml file of this repository, not sure if it's useful but sort of cool -->
+Ohjelmointi tarjoaa paljon mahdollisuuksia opetustyöhön. Logiikan, ongelmanratkaisutaitojen ja kriittisen kansalaisuudenkin yleiseen kehittämiseen tarjoutuu uusia työkaluja ainesisällön oppimisen sivussa. Luonnollisesti tämä on aikaa vievää sisällyttää muun opetuksen joukkoon, mutta luotamme sen olevan pidemmän päälle vaivan arvoista niin oppijoiden kuin yhteiskunnankin kannalta.
 
-- mistä löydän materiaalit ({{ site.data.docs[0].time }}) 
-- kuinka avaan Jupyter notebook -sivun ({{ site.data.docs[1].time }})
-- kuinka muokkaan materiaalia omaan käyttööni ({{ site.data.docs[2].time }})
-- kuinka luon kokonaan uuden jupyter notebook -sivun ({{ site.data.docs[3].time }})
-- kuinka oppilaat voivat tallentaa omat harjoituksensa ja avata ne uudestaan ({{ site.data.docs[4].time}})
+Nyrkkisääntönä voinee pitää, että yksittäisten harjoitteiden parissa saa helposti vietettyä tunnin tai toisenkin (etenkin ohjelmointia aloitteleva) jos lähtee kunnolla porautumaan aineistoihin tai mahdollisiin visualisaatioihin, mutta itse alkuun pääseminen on tehty nopeaksi ja vaivattomaksi.
+
+Sivuilta löytyvillä harjoitteilla on kolme karkeaa kategoriaa:
+- Lyhyet tehtävät joilla pääsee sisään ohjelmointiin. Helppo ajaa selaimessa.
+- Pidemmät harjoitteet, joissa yleensä tutkitaan yhtä aineistoa kerrallaan. Esimerkiksi oppitunti- tai työpajakäyttöön. Suurin osa tarjotuista materiaaleista kuuluu tähän luokkaan.
+- Vaativammat projektit edistyneemmille tekijöille. Pidempään puuhasteluun omalla ajalla.
+
+Vierestä löydät linkin materiaaleihin (Data-puolella laajemmin lisää), ohjeita Notebookien kanssa toimimiseen sekä vaihe vaiheelta käydyn esimerkin.

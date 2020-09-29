@@ -1,3 +1,7 @@
+---
+category: jupyter
+---
+
 ## Omien Notebook-materiaalien kanssa puuhailu
 
 Notebookit ovat helppokäyttöisiä työkaluja: pohjimmiltaan muistio koostuu soluista, joille voi valita joko teksti- tai koodistatuksen. Näitä lisäämällä ja muotoilemalla voi kirjoittaa omia materiaalipohjiaan ties minkä aineistojen analysointiin.
