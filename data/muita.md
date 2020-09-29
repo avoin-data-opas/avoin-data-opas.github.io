@@ -1,3 +1,7 @@
+---
+category: data
+---
+
 ## Muita konteksteja kuin hiukkasfysiikkaa
 
 Vaikka CMS-painotteisen projektimme ytimessä toimivatkin hiukkasfyysikot ja aiheesta kiinnostuneet opettajat, maailma on täynnä kiinnostavia tietoaineistoja muihinkin tarpeisiin. "Mistä löydän dataa"-sivulta löydät linkkejä hyviin tietolähteisiin, täältä taas valmiisiin harjoitteisiin.

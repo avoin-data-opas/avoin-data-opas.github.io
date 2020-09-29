@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Esimerkkitapaus datan lataamisesta ja käsittelystä | Avoin data opetuskäyttöön - näillä ohjeilla alkuun!</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Esimerkkitapaus datan lataamisesta ja käsittelystä" />
+<meta property="og:locale" content="fi" />
+<meta name="description" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
+<meta property="og:description" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
+<link rel="canonical" href="http://localhost:4000/lyhyesti/esimerkkisivu.html" />
+<meta property="og:url" content="http://localhost:4000/lyhyesti/esimerkkisivu.html" />
+<meta property="og:site_name" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
+<script type="application/ld+json">
+{"description":"Avoin data opetuskäyttöön - näillä ohjeilla alkuun!","@type":"WebPage","headline":"Esimerkkitapaus datan lataamisesta ja käsittelystä","url":"http://localhost:4000/lyhyesti/esimerkkisivu.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="/assets/css/style.css?v=5e0095e2e8ad489825ff944d905b599f9daf3746">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/"> Avoin data opetuksessa</a></h1>
+        
+        
+
+        
+            <h3><a href="/lyhyesti.html" >Lyhyesti</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+              
+                    <h4><a href="/lyhyesti/materiaalit.html" >Missä materiaalit</a></h4> 
+              
+                    <h4><a href="/lyhyesti/avaa.html" >Miten avaan sivun</a></h4> 
+              
+                    <h4><a href="/lyhyesti/muokkaa.html" >Miten muokkaan sivua</a></h4> 
+              
+                    <h4><a href="/lyhyesti/luo.html" >Miten luon oman sivun</a></h4> 
+              
+                    <h4><a href="/lyhyesti/tee-ja-tallenna.html" >Miten tallennan vastaukset</a></h4> 
+              
+                    <h4><a href="/lyhyesti/esimerkkisivu.html"  class="current" >Esimerkkisivu</a></h4> 
+              
+            
+        
+            <h3><a href="/jupyter.html" >Jupyter Notebooks -ympäristö</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+        
+            <h3><a href="/python.html" >Pohjatiedot Python-kielestä</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+        
+            <h3><a href="/data.html" >Alkuun datan kanssa</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+        
+      </header>  
+      <section>
+
+      <h2 id="esimerkkitapaus-datan-lataamisesta-ja-käsittelystä">Esimerkkitapaus datan lataamisesta ja käsittelystä</h2>
+
+<p>Tehdään helppo esimerkki!</p>
+
+<ul>
+  <li>Etsitään aineistoa, kuten vaikka aikasarja auringonpilkuista <a href="http://sidc.oma.be/silso/datafiles">SIDC:n sivuilta</a>.</li>
+  <li>Tehdään muistio joka pystyy avaamaan sen:</li>
+</ul>
+
+<p><img src="assets/img/aurinko1.png" alt="kuva" /></p>
+
+<ul>
+  <li>Lukeminen näyttää alkaneen huonosta kohtaa, käsketääs tulokseen mukaan otsikkorivi:</li>
+</ul>
+
+<p><img src="assets/img/aurinko2.png" alt="kuva" /></p>
+
+<ul>
+  <li>No ei nyt ihan mennyt putkeen tämäkään, mutta huomaamme että syynähän on huonosti muotoiltu taulukko. Oletuserotin pd.read_csv() -komennolle on pilkku, mutta datassa näkyy puolipisteitä. Korjataan parametrilla “sep”:</li>
+</ul>
+
+<p><img src="assets/img/aurinko3.png" alt="kuva" /></p>
+
+<ul>
+  <li>Parempi. Nyt voi tietysti ihmetellä saisiko sarakkeet nimettyä paremmin, jos katsoo mitä kukin tarkoittaa (selitys SIDC:n sivuilla). Käytetään “names”-parametria latauksen yhteydessä. Voisi nämä nimetä muuttujassakin, mutta samalla vaivalla se pienillä tiedostoilla menee tässäkin.</li>
+</ul>
+
+<p><img src="assets/img/aurinko4.png" alt="kuva" /></p>
+
+<ul>
+  <li>No johan alkaa näyttää ymmärrettävältä informaatiolta! Otetaan nopea kuvaaja pohjoisen ja eteläisen auringonpuoliskon pilkkuluvuista:</li>
+</ul>
+
+<p><img src="assets/img/aurinko5.png" alt="kuva" /></p>
+
+<ul>
+  <li>Hahaa, voiton puolella. Tehdään vielä joukko muotoilutoimenpiteitä paremman esityksen nimissä:</li>
+</ul>
+
+<p><img src="assets/img/aurinko6.png" alt="kuva" /></p>
+
+<p>Ja siinä se sitten onkin. Haettiin dataa, katsottiin millaista se on, muotoiltiin se nätimmäksi ja esitettiin se kivana visualisaationa josta voidaan ryhtyä pureutumaan vaikka auringon monivuotisiin sykleihin tai jatkaa tarkemmin itse datan kanssa (selvitetään vaikka keskimääräiset päivittäiset pilkkumäärät ja niiden vuosittaiset vaihtelut).</p>
+
+<p>Kokeile itse samaa luomalla uusi muistio ja etsimällä kiintoisa datasetti (tai kopsaa osoite yltä)!</p>
+
+
+
+      </section>
+      <footer>
+        <p><small>Ota yhteyttä tai kysy apua: <br> apua-avoin-data@cern.ch</small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    <div class="lang">
+      <ul>
+        <li><a class="FI" href="http://localhost:4000">FI</a></li>
+        <li><a class="EN" href="http://localhost:4000/en/">EN</a></li>
+      </ul>
+    </div>
+    
+  </body>
+</html>

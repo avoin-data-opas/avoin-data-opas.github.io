@@ -1,3 +1,7 @@
+---
+category: data
+---
+
 ## Aineistojen löytäminen
 
 Käyttökelpoista dataa on verkko pullollaan, mutta sen löytäminen voi joskus vaatia sähläämistä ja muotoseikkojen korjaamista ennen käyttöönottoa. Googlaamalla "avoin data", "open data", "open data portal" tai muita vastaavia sanoja pääsee kuitenkin nopeasti liikkeelle. Jos opiskelijat etsivät itse sopivia aineistoja tutkiskeltavaksi, samalla on hyvä tilaisuus käydä läpi lähdekritiikin tärkeyttä. Miten luotettavaa eri instituutioiden, valtioiden tai laitosten antama tieto on, onko se annettu rehellisin aikein käyttöön vai pyrkiikö se ajamaan selkeää agendaa jne.

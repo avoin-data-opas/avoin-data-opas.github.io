@@ -1,3 +1,7 @@
+---
+category: data
+---
+
 ## Esimerkkitapaus datan lataamisesta ja käsittelystä
 
 Tehdään helppo esimerkki!

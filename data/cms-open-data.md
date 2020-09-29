@@ -1,3 +1,8 @@
+---
+category: data
+---
+
+
 ## CMS ja avoin data
 
 ![cms](https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/RetrieveFile?docid=3045&filename=CMSlogo_color_nolabel_1024_May2014.png&version=3)
