@@ -1,3 +1,7 @@
+---
+category: python
+---
+
 ## Tervetuloa Pythonin pariin!
 
 Python kielenä pyrkii minimalismiin. Suunnittelufilosofiaa avaava [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python) kertoo muun muassa seuraavaa:

@@ -1,3 +1,7 @@
+---
+category: python
+---
+
 ## Paketit, funktiokirjastot, moduulit
 
 Joku on kuitenkin ratkaissut jo ongelmasi, siihen pitää vain löytää sopiva moduuli.

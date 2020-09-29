@@ -2,7 +2,6 @@
 category: python
 ---
 
-Python
 ## Python-ohjelmointi
 
 ![python](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1920px-Python_logo_and_wordmark.svg.png)

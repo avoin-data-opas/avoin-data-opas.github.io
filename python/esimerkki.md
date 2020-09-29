@@ -1,3 +1,7 @@
+---
+category: python
+---
+
 ## Esimerkki Python-harjoitteesta
 
 

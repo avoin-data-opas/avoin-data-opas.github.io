@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Tervetuloa Pythonin pariin! | Avoin data opetuskäyttöön - näillä ohjeilla alkuun!</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Tervetuloa Pythonin pariin!" />
+<meta property="og:locale" content="fi" />
+<meta name="description" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
+<meta property="og:description" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
+<link rel="canonical" href="http://localhost:4000/python/perusteet.html" />
+<meta property="og:url" content="http://localhost:4000/python/perusteet.html" />
+<meta property="og:site_name" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
+<script type="application/ld+json">
+{"description":"Avoin data opetuskäyttöön - näillä ohjeilla alkuun!","@type":"WebPage","headline":"Tervetuloa Pythonin pariin!","url":"http://localhost:4000/python/perusteet.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="/assets/css/style.css?v=b4a750d47b250b53f3d6f697465b4c1458a2b914">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/"> Avoin data opetuksessa</a></h1>
+        
+        
+
+        
+            <h3><a href="/lyhyesti.html" >Lyhyesti</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+        
+            <h3><a href="/jupyter.html" >Jupyter Notebooks -ympäristö</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+        
+            <h3><a href="/python.html" >Pohjatiedot Python-kielestä</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+              
+                    <h4><a href="/python/perusteet.html"  class="current" >Perusteet</a></h4> 
+              
+                    <h4><a href="/python/kirjastot.html" >Kirjastot ja moduulit</a></h4> 
+              
+                    <h4><a href="/python/esimerkki.html" >Esimerkkejä</a></h4> 
+              
+                    <h4><a href="/python/troubleshoot.html" >Ongelmia?</a></h4> 
+              
+            
+        
+            <h3><a href="/data.html" >Alkuun datan kanssa</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+        
+      </header>  
+      <section>
+
+      <h2 id="tervetuloa-pythonin-pariin">Tervetuloa Pythonin pariin!</h2>
+
+<p>Python kielenä pyrkii minimalismiin. Suunnittelufilosofiaa avaava <a href="https://en.wikipedia.org/wiki/Zen_of_Python">Zen of Python</a> kertoo muun muassa seuraavaa:</p>
+
+<ul>
+  <li>Beautiful is better than ugly.</li>
+  <li>Explicit is better than implicit.</li>
+  <li>Simple is better than complex.</li>
+  <li>Complex is better than complicated.</li>
+  <li>Flat is better than nested.</li>
+  <li>Sparse is better than dense.</li>
+  <li>Readability counts.</li>
+</ul>
+
+<p>Tämä näkyy heti alusta lähtien siinä, ettei käyttäjän tarvitse erityisemmin määritellä luokkia tai sählätä kansiorakenteiden kanssa.</p>
+
+<p>Yksinkertainen Python-skripti voisi esimerkiksi sisältää sopivien työkalujen tuomisen (<strong>import</strong>), halutun datasetin lukemisen ja siitä kuvaajan piirtämisen.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+
+<span class="n">datasetti</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"LinkkiKohteeseen"</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">hist</span><span class="p">(</span><span class="n">datasetti</span><span class="p">,</span> <span class="n">bins</span> <span class="o">=</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Oleellista on tietää mitä kirjastoja tarvitsee tuoda kulloinkin käytettävään harjoitteeseen ja miten niissä olevia komentoja kutsutaan.</p>
+
+
+      </section>
+      <footer>
+        <p><small>Ota yhteyttä tai kysy apua: <br> apua-avoin-data@cern.ch</small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    <div class="lang">
+      <ul>
+        <li><a class="FI" href="http://localhost:4000">FI</a></li>
+        <li><a class="EN" href="http://localhost:4000/en/">EN</a></li>
+      </ul>
+    </div>
+    
+  </body>
+</html>
