@@ -14,4 +14,3 @@ defaults:
      values:
          lang: fi
          base-url: "/"
-         layout: default
