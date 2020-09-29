@@ -12,11 +12,11 @@
 <meta property="og:locale" content="fi" />
 <meta name="description" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
 <meta property="og:description" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
-<link rel="canonical" href="http://localhost:4000/lyhyesti/esimerkkisivu.html" />
-<meta property="og:url" content="http://localhost:4000/lyhyesti/esimerkkisivu.html" />
+<link rel="canonical" href="http://localhost:4000/data/esimerkki.html" />
+<meta property="og:url" content="http://localhost:4000/data/esimerkki.html" />
 <meta property="og:site_name" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
 <script type="application/ld+json">
-{"description":"Avoin data opetuskäyttöön - näillä ohjeilla alkuun!","@type":"WebPage","headline":"Esimerkkitapaus datan lataamisesta ja käsittelystä","url":"http://localhost:4000/lyhyesti/esimerkkisivu.html","@context":"https://schema.org"}</script>
+{"description":"Avoin data opetuskäyttöön - näillä ohjeilla alkuun!","@type":"WebPage","headline":"Esimerkkitapaus datan lataamisesta ja käsittelystä","url":"http://localhost:4000/data/esimerkki.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link rel="stylesheet" href="/assets/css/styles.css">
@@ -35,20 +35,6 @@
         
             <h3><a href="/lyhyesti.html" >Lyhyesti</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
             
-              
-                    <h4><a href="/lyhyesti/materiaalit.html" >Missä materiaalit</a></h4> 
-              
-                    <h4><a href="/lyhyesti/avaa.html" >Miten avaan sivun</a></h4> 
-              
-                    <h4><a href="/lyhyesti/muokkaa.html" >Miten muokkaan sivua</a></h4> 
-              
-                    <h4><a href="/lyhyesti/luo.html" >Miten luon oman sivun</a></h4> 
-              
-                    <h4><a href="/lyhyesti/tee-ja-tallenna.html" >Miten tallennan vastaukset</a></h4> 
-              
-                    <h4><a href="/lyhyesti/esimerkkisivu.html"  class="current" >Esimerkkisivu</a></h4> 
-              
-            
         
             <h3><a href="/jupyter.html" >Jupyter Notebooks -ympäristö</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
             
@@ -57,6 +43,20 @@
             
         
             <h3><a href="/data.html" >Alkuun datan kanssa</a></h3> <!--This comes from _this_ repo's _data/docs.yml-->
+            
+              
+                    <h4><a href="/data/mita.html" >Mitä data on</a></h4> 
+              
+                    <h4><a href="/data/mista.html" >Mistä löydän dataa</a></h4> 
+              
+                    <h4><a href="/data/muodot.html" >Tiedostomuodoista</a></h4> 
+              
+                    <h4><a href="/data/CMS-open-data.html" >CMS ja avoin data</a></h4> 
+              
+                    <h4><a href="/data/muita.html" >Muita konteksteja</a></h4> 
+              
+                    <h4><a href="/data/esimerkki.html"  class="current" >Esimerkkejä</a></h4> 
+              
             
         
       </header>  
@@ -71,37 +71,37 @@
   <li>Tehdään muistio joka pystyy avaamaan sen:</li>
 </ul>
 
-<p><img src="assets/img/aurinko1.png" alt="kuva" /></p>
+<p><img src="/assets/img/aurinko1.png" alt="kuva" /></p>
 
 <ul>
   <li>Lukeminen näyttää alkaneen huonosta kohtaa, käsketääs tulokseen mukaan otsikkorivi:</li>
 </ul>
 
-<p><img src="assets/img/aurinko2.png" alt="kuva" /></p>
+<p><img src="/assets/img/aurinko2.png" alt="kuva" /></p>
 
 <ul>
   <li>No ei nyt ihan mennyt putkeen tämäkään, mutta huomaamme että syynähän on huonosti muotoiltu taulukko. Oletuserotin pd.read_csv() -komennolle on pilkku, mutta datassa näkyy puolipisteitä. Korjataan parametrilla “sep”:</li>
 </ul>
 
-<p><img src="assets/img/aurinko3.png" alt="kuva" /></p>
+<p><img src="/assets/img/aurinko3.png" alt="kuva" /></p>
 
 <ul>
   <li>Parempi. Nyt voi tietysti ihmetellä saisiko sarakkeet nimettyä paremmin, jos katsoo mitä kukin tarkoittaa (selitys SIDC:n sivuilla). Käytetään “names”-parametria latauksen yhteydessä. Voisi nämä nimetä muuttujassakin, mutta samalla vaivalla se pienillä tiedostoilla menee tässäkin.</li>
 </ul>
 
-<p><img src="assets/img/aurinko4.png" alt="kuva" /></p>
+<p><img src="/assets/img/aurinko4.png" alt="kuva" /></p>
 
 <ul>
   <li>No johan alkaa näyttää ymmärrettävältä informaatiolta! Otetaan nopea kuvaaja pohjoisen ja eteläisen auringonpuoliskon pilkkuluvuista:</li>
 </ul>
 
-<p><img src="assets/img/aurinko5.png" alt="kuva" /></p>
+<p><img src="/assets/img/aurinko5.png" alt="kuva" /></p>
 
 <ul>
   <li>Hahaa, voiton puolella. Tehdään vielä joukko muotoilutoimenpiteitä paremman esityksen nimissä:</li>
 </ul>
 
-<p><img src="assets/img/aurinko6.png" alt="kuva" /></p>
+<p><img src="/assets/img/aurinko6.png" alt="kuva" /></p>
 
 <p>Ja siinä se sitten onkin. Haettiin dataa, katsottiin millaista se on, muotoiltiin se nätimmäksi ja esitettiin se kivana visualisaationa josta voidaan ryhtyä pureutumaan vaikka auringon monivuotisiin sykleihin tai jatkaa tarkemmin itse datan kanssa (selvitetään vaikka keskimääräiset päivittäiset pilkkumäärät ja niiden vuosittaiset vaihtelut).</p>
 

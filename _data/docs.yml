@@ -65,4 +65,38 @@
   category: data
   title: Alkuun datan kanssa
   title-en: Getting started with data
+  subfolderitems:
+  - name: mita
+    url: /data/mita.html
+    category: data
+    title: Mitä data on
+    time: 10 min
+  - name: mista
+    url: /data/mista.html
+    category: data
+    title: Mistä löydän dataa
+    time: 10 min
+  - name: muodot
+    url: /data/muodot.html
+    category: data
+    title: Tiedostomuodoista
+    time: 20 min
+  - name: CMS-open-data
+    url: /data/CMS-open-data.html
+    category: data
+    title: CMS ja avoin data
+    time: 20 min
+  - name: muita
+    url: /data/muita.html
+    category: data
+    title: Muita konteksteja
+    time: 1530 min
+  - name: esimerkki
+    url: /data/esimerkki.html
+    category: data
+    title: Esimerkkejä
+    time: 10 min
+  
+
+
   
