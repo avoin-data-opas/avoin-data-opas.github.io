@@ -124,8 +124,8 @@
     title: Tiedostomuodoista
     time: 20 min
 
-  - name: CMS-open-data
-    url: /data/CMS-open-data.html
+  - name: cms-open-data
+    url: /data/cms-open-data.html
     category: data
     title: CMS ja avoin data
     time: 20 min
