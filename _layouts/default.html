@@ -18,7 +18,7 @@
         <h1><a href="{{ '/' | relative_url }}"> Avoin data opetuksessa</a></h1>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{ site.logo | relative_url }}" alt="Logo" />
         {% endif %}
 
         {% for item in site.data.docs %}
@@ -42,8 +42,8 @@
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <div class="lang">
       <ul>
-        <li><a class="FI" href="{{ site.url }}">FI</a></li>
-        <li><a class="EN" href="{{ site.url }}/en/">EN</a></li>
+        <li><a class="FI" href="{{ page.url | remove: '.html' }}">FI</a></li>
+        <li><a class="EN" href="/en{{ page.url | remove: '.html' }}">EN</a></li>
       </ul>
     </div>
     {% if site.google_analytics %}
