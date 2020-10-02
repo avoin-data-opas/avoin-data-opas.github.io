@@ -8,11 +8,11 @@ defaults:
      values:
          layout: default_en
          lang: en
-         base-url: "/en/"
+         baseurl: "en/"
     -
      scope:
          path: ""
      values:
          lang: fi
-         base-url: "/"
+         baseurl: ""
          layout: default
