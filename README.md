@@ -9,6 +9,5 @@ The page layout is defined in [_layouts/default.html](_layouts/default.html) for
 If you want to add a new repository, copy the files of a topic repository and modify the necessary input in docs.yml.
 
 To run the site locally on you computer, you can use Git Bash and follow quickstart instructions on https://jekyllrb.com/
-Run the command "bundle install" on your Git Bash to install needed plugins when trying to run the site for the first time.
 
 
