@@ -10,9 +10,9 @@ Ohjelmointi tarjoaa paljon mahdollisuuksia opetustyöhön. Logiikan, ongelmanrat
 
 Nyrkkisääntönä voinee pitää, että yksittäisten harjoitteiden parissa saa helposti vietettyä tunnin tai toisenkin (etenkin ohjelmointia aloitteleva) jos lähtee kunnolla porautumaan aineistoihin tai mahdollisiin visualisaatioihin, mutta itse alkuun pääseminen on tehty nopeaksi ja vaivattomaksi.
 
-Sivuilta löytyvillä harjoitteilla on kolme karkeaa kategoriaa:
+[Materiaalipankista](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish) löytyvillä harjoitteilla on kolme karkeaa kategoriaa:
 - Lyhyet tehtävät joilla pääsee sisään ohjelmointiin. Helppo ajaa selaimessa.
 - Pidemmät harjoitteet, joissa yleensä tutkitaan yhtä aineistoa kerrallaan. Esimerkiksi oppitunti- tai työpajakäyttöön. Suurin osa tarjotuista materiaaleista kuuluu tähän luokkaan.
 - Vaativammat projektit edistyneemmille tekijöille. Pidempään puuhasteluun omalla ajalla.
 
-Vierestä löydät linkin materiaaleihin (Data-puolella laajemmin lisää), ohjeita Notebookien kanssa toimimiseen sekä vaihe vaiheelta käydyn esimerkin.
+Tästä osiosta löydät ohjeita Jupyter Notebookien kanssa toimimiseen sekä vaihe vaiheelta läpikäydyn esimerkin.
