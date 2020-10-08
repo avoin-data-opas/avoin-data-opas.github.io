@@ -5,7 +5,11 @@
 
 Tältä sivulta löydät ohjeita ja lukiotason harjoitteita Python-kielellä ohjelmointiin avoimen datan parissa. Aihepiireihin mahtuu kaikenlaista hiukkasfysiikasta epidemiologiaan. Sisältö sopii omatoimiseen tutustumiseen, avuksi avoimen datan käyttöönoton kurssitukseen tai vaikkapa lisäprojektiksi uteliaalle opiskelijalle. Materiaaleihin sisään pääseminen ei edellytä aiempaa ohjelmointikokemusta.
 
-Jos haluat päästä nopeasti alkuun tai olet esimerkiksi käyttänyt materiaaleja joskus aiemmin, voit aloittaa viereisen valikon kohdasta "Lyhyesti". Jos haluat perehtyä tehtävissä käytettäviin teknologioihin tarkemmin, voit lukea näistä lisää osiosta "Jupyter Notebooks -ympäristö" ja "Python ohjelmointikielenä. "Alkuun datan kanssa"-osiosta löydät ohjeita tietoaineistojen etsimiseen, jotka voivat toimia inspiraationa omiin dataprojekteihin.
+Nopeasti alkuun pääset aloittamalla viereisen valikon kohdasta "Lyhyesti". Tarkemmin tehtävissä käytettäviin teknologioihin voit perehtyä lisää osioissa "Jupyter Notebooks -ympäristö" ja "Python ohjelmointikielenä. "Alkuun datan kanssa"-osiosta taas löydät ohjeita tietoaineistojen etsimiseen, jotka voivat toimia inspiraationa omiin dataprojekteihin.
+
+![kuva](higgsOD.png)
+
+Antoisaa puuhastelua avoimen datan äärellä!
 
 __________
 
@@ -17,6 +21,4 @@ __________
 4. Tee oma .ipynb-muistiosi ja ohjelmoi jotakin, esimerkiksi simppeli kuvaaja, tottuaksesi käyttöliittymään.
 5. Selaa tätä sivua siinä sivussa.
 6. Jatka samaan malliin!
-
-Antoisaa puuhastelua avoimen datan äärellä!
 
