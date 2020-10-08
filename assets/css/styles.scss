@@ -24,7 +24,12 @@ header .current {
 }
 
 /* Overrides theme css and prevents links to bold on hover */
-body a:hover {
+body a:focus, a:visited {
+  font-weight: normal;
+}
+
+/* Overrides theme css and prevents links to bold on hover and colors the link text */
+body a:hover, a:active {
   font-weight: normal;
   color: black;
 }
