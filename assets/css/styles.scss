@@ -3,10 +3,33 @@
 
 @import "{{ site.theme }}";
 
-.current {
-  text-decoration: underline !important;
+/* Sets position for the GitHub logo */
+.logos {
+  display:inline-block;
+  vertical-align: -4px;
+  margin-right: 5px;
 }
 
+/* Underlines the current page in navigation */
+header .current {
+  display: inline;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+  color: black;
+}
+
+/* Indents subnavigation items */
 .subnav {
   text-indent: 1em;
+}
+
+/* Overrides theme css and prevents links to bold on hover */
+body a:hover {
+  font-weight: normal;
+  color: black;
+}
+
+/* Keeps navigation links' style on hover */
+header a:hover {
+  font-weight: inherit;
 }
