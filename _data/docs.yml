@@ -70,16 +70,10 @@
 - name: python
   url: /python.html
   category: python
-  title: Pohjatiedot Python-kielestä
+  title: Python ohjelmointikielenä
   title-en: Basic Python
 
   subfolderitems:
-  - name: perusteet
-    url: /python/perusteet.html
-    category: python
-    title: Perusteet
-    time: 10 min
-
   - name: kirjastot
     url: /python/kirjastot.html
     category: python

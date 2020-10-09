@@ -11,3 +11,5 @@ Python on syntaksiltaan intuitiivinen ja erityisesti aloittelijoille sopiva tulk
 Python kuuluu planeettamme käytetyimpien kielien kärkijoukkoon ja sillä on sovelluksia niin teollisuus- kuin tutkimusaloilla, verkkosivukehityksessä ja monessa muussa paikassa. 
 
 Hyvä lähtökohta on, että lähes aina kohdatessasi ongelman joku on jo ratkaissut sen, kunhan osaat googlata ohjeisiin (ja katsoo niiden olevan nykyversioille 3.X, sillä vanhemmat 2.X versioiden komennot eivät välttämättä toimi).
+
+Käytännön harjoituksia Pythonin käytöstä löydät [esimerkkisivulta](/python/esimerkki).
