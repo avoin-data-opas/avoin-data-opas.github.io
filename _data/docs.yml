@@ -74,6 +74,12 @@
   title-en: Basic Python
 
   subfolderitems:
+  - name: perusteet
+    url: /python/perusteet.html
+    category: python
+    title: Perusteet
+    time: 10 min
+    
   - name: kirjastot
     url: /python/kirjastot.html
     category: python
