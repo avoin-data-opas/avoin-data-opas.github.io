@@ -4,6 +4,12 @@ category: python
 
 ## Tervetuloa Pythonin pariin!
 
+Jos haluat päästä käytännönläheisesti alkuun, voit kokeilla datan käsittelyyn laatimaamme johdatusta: 
+
+**Ohjeita Pythonin käyttöön** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=TyokalutTutuiksi%2FOhjeita%20Pythonin%20k%C3%A4ytt%C3%B6%C3%B6n.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/TyokalutTutuiksi/Ohjeita%20Pythonin%20k%C3%A4ytt%C3%B6%C3%B6n.ipynb)
+
+Mikäli ohjelmointi ei ole sinulle ennestään tuttua ja haluat oppia Pythonia aivan alusta alkaen, netistä löytyy tähän googlaamalla useita tutoriaaleja. Alkuun pääsee esimerkiksi osoitteessa [learnpython.org](https://www.learnpython.org/).
+
 Python kielenä pyrkii minimalismiin. Suunnittelufilosofiaa avaava [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python) kertoo muun muassa seuraavaa:
 
 - Beautiful is better than ugly.

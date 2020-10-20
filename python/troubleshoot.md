@@ -6,25 +6,25 @@ category: python
 
 Kooste:
 
-- Yhyy, en osaa?  
-- Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?  
-- Virheilmoitus herjaa 'nimi is not defined' tai 'nimi does not exist'?  
-- Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?  
-- Datani ei suostu lataamaan?  
-- Lataamassani datassa on jotain omituisia 'NaN'-arvoja?  
-- Yhdistin palasia datasta, mutta nyt en enää pysty tekemään asioita uudella muuttujallani?  
-- Koodini ei toimi, vaikka se on ihan varmasti oikein kirjoitettu?  
-- Datan päivämäärät sekoittavat toiminnan, miten korjaan?  
-- Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?  
+- [Yhyy, en osaa?](#1)
+- [Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?](#2)
+- [Virheilmoitus herjaa 'nimi is not defined' tai 'nimi does not exist'?](#3)  
+- [Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?](#4)
+- [Datani ei suostu lataamaan?](#5)
+- [Lataamassani datassa on jotain omituisia 'NaN'-arvoja?](#6)
+- [Yhdistin palasia datasta, mutta nyt en enää pysty tekemään asioita uudella muuttujallani?](#7) 
+- [Koodini ei toimi, vaikka se on ihan varmasti oikein kirjoitettu?](#8)
+- [Datan päivämäärät sekoittavat toiminnan, miten korjaan?](#9)
+- [Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?](#10)
 
 
-### Yhyy, en osaa?
+<h3 id="1">Yhyy, en osaa?</h3>
 
 Nou hätä, kukaan ei aloita mestarina. Tekemällä oppii ja virheet kuuluvat asiaan.
 Pythonissa on kivana puolena sen laaja käyttäjäkunta: mitä ikinä keksitkään kysyä, et ole ensimmäinen ja vastaus luultavasti löytyy ensimmäisten googlaustulosten joukosta (esim. StackExchange on hyvä paikka vastausten löytämiseen).
 Tässä on ohjeita muutamiin yleisimpiin ongelmatilanteisiin.
 
-### Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?
+<h3 id="2">Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?</h3>
 
 Jos solun ajamisessa kuluu joitain sekunteja pidempään ilman, että sen pitäisi tehdä mitään erityisen raskasta, on mahdollista että koodissa on virheellisesti kirjoitettu
 jokin silmukka johon koneen lukija jää jumiin. Pysäytä kernelin toiminta ja tarkista koodisi mahdollisten kitkakohtien varalta.
@@ -34,12 +34,12 @@ Yksi yleinen ongelma on, että syntaksivirhe ajaa koneen tekemään jotain vää
 mutta unohdat sarakkeen nimen koodista. Tällöin kone yrittää toteuttaa käskyäsi ja hämmentyy saamastaan koko datan sisältävästä taulukosta.
 Pysäytä kernelin toiminta ja korjaa muuttujien nimet oikein.
 
-### Virheilmoitus herjaa 'nimi is not defined' tai 'nimi does not exist'? 
+<h3 id="3"> Virheilmoitus herjaa 'nimi is not defined' tai 'nimi does not exist'?</h3>
 
 Muuttujaa, johon viittaat, ei ole olemassa. Olethan muistanut varmasti ajaa tässä istunnossa sen solun, jossa kyseinen muuttuja määritellään?
 Muista myös kirjainkoon tarkka merkitys.
 
-### Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?
+<h3 id="4">Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?</h3>
 
 Tallennuksessasi on jokin ongelma. Muista aina tallentaa tekemäsi operaatiot muuttujaan, eli esimerkiksi
 ```python
@@ -54,7 +54,7 @@ muuttuja*2
 Jos muuttujan tarkasteleminen palauttaa None, tällöin muuttujasi on tyhjä.
 Tarkasta, että haluamasi operaatio oikeasti on tehtävissä oleva eikä hajoa vaikkapa jonkin sisäfunktion vääriin syötteisiin.
 
-### Datani ei suostu lataamaan? 
+<h3 id="5">Datani ei suostu lataamaan?</h3>
 Tavallisia csv- ja vastaavia tekstitiedostoja voi tarkastella tekstinkäsittelyohjelmilla. Tällöin näet, millä merkillä arvot on eroteltu, miltä riviltä
 relevantti data alkaa tai onko tiedoston sisältö ylipäätään se mitä kuvittelit.
 
@@ -69,14 +69,14 @@ avaisi puolipisteellä erotetun csv:n.
 Joskus ongelma johtuu merkistöjä ohjaavien koodien yhteensopimattomuudesta. Tällöin parametri **encoding** voi auttaa.
 Näistä löydät enemmän [täältä](https://docs.python.org/3/library/codecs.html#standard-encodings). Jos oletusasetus ei toimi, usein jokin ISO-variantti kelpaa.
 
-### Lataamassani datassa on jotain omituisia 'NaN'-arvoja?  
+<h3 id="6">Lataamassani datassa on jotain omituisia 'NaN'-arvoja?</h3> 
 
 NaN, 'Not a Number', kertoo että tässä kohtaa dataa ei ole ymmärrettävää arvoa. Joko arvo on omituinen (kuten negatiivisen luvun neliöjuuri) tai sitä ei vain ole.
 
 Monet funktiot eivät välitä NaN-arvoista tai niiden parametreihin voi laittaa asetuksen, jolla ne eivät huomioi niiden olemassaoloa.
 Tämä helpottaa etenkin isojen datojen läpikäyntiä, kun kaikkia mahdollisia virheitä ei huomioida eikä kone jumitu törmätessään matemaattiseen mahdottomuuteen.
 
-### Yhdistin palasia datasta, mutta nyt en enää pysty tekemään asioita uudella muuttujallani?
+<h3 id="7">Yhdistin palasia datasta, mutta nyt en enää pysty tekemään asioita uudella muuttujallani?</h3>
 
 Yhdistitkö eri tyyppisiä muuttujia? Kokonaisluvut (integer) ovat tietokoneelle erilaisia kuin desimaaleja ymmärtävät liukuluvut (float),
 jotka ovat erilaisia kuin teksti (string) ja niin edelleen.
@@ -87,18 +87,18 @@ Yhdistithän palaset oikeisiin suuntiin? Jos halusit sarakkeet vierekkäin, niit
 Tiedoston tarkastelu vaikkapa **len(nimi)** ja **nimi.head()** komennoilla on usein hyödyllistä näissä tilanteissa.
 
 
-### Koodini ei toimi, vaikka se on ihan varmasti oikein kirjoitettu? 
+<h3 id="8">Koodini ei toimi, vaikka se on ihan varmasti oikein kirjoitettu?</h3>
 
 Tarkista nyt kuitenkin, ettei ole piste väärässä kohdassa tai väärä kirjainkoko jossakin.
 Jos koodi ei ihan oikeasti vaan toimi vaikka pitäisi, syy voi löytyä kerneliin jääneistä aiemmista tiedoista muistissa.
 Näissä tapauksissa voi välillä vain kokeilla Kernel-valikosta Restart & Clear Outputtia ja uudelleen ajamista vaikka parikin kertaa.
 
-### Datan päivämäärät sekoittavat toiminnan, miten korjaan?  
+<h3 id="9">Datan päivämäärät sekoittavat toiminnan, miten korjaan?</h3>
 
 Päivämäärät saattavat tulla ilmoitettuina monessa muodossa. Jos oletusasetukset eivät saa dataa toimimaan nätisti, **pd.read_csv():n** [dokumentaatiosta](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html) näkyy millä sen parametreilla voi vaikuttaa päivämäärien tulkintaan. Esim. **dayfirst** tai **date_parser** saattavat ratkaista ongelman.
 Pythonissa on myös paketti [**time**](https://docs.python.org/3/library/time.html), josta löytyy varmasti sopivat palat tilanteeseen.
 
-### Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?  
+<h3 id="10">Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?</h3>
 
 Python operoi osoittimilla, joissa muuttujaan tallentuu oikeastaan tiedon itsensä sijaan paikkatieto siitä, mistä päin muistia kyseinen tieto löytyy.
 Kopioitaessa kokonaista datamuuttujaa toiseen muuttujaan yksittäisten rivien tai sarakkeiden sijaan saattaa käydä niin, että siinä ei oikeastaan tehdä muuta kuin

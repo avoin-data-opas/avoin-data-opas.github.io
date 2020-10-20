@@ -3,6 +3,52 @@
 
 @import "{{ site.theme }}";
 
+/*header {
+  z-index: 1;
+}
+
+footer {
+  z-index: 2;
+}*/
+
+/* Sticking navigation bar to the left of the screen, excluding mobile version */
+@media only screen and (min-width: 1025px) {
+  body {
+    width: 90%;
+    padding: 30px;
+  }
+
+  /*section {
+    width: 100%;
+  }*/
+
+  #wrapper {
+    width: 100%;
+  }
+  
+  #sidebar {
+    height: 100%;
+    width: 20%;
+    left: 10%;
+    position: fixed;
+    z-index: 1;
+    display: inline-block;
+  }
+
+  #content {
+    width: 50%;
+    display: block;
+    float: right;
+    margin-right: 15%;
+    padding-top: 5px;
+  }
+
+  #footer {
+    bottom: 30px;
+    width: inherit;
+  }
+}
+
 /* Sets position for the GitHub logo */
 .logos {
   display:inline-block;
@@ -37,4 +83,10 @@ body a:hover, a:active {
 /* Keeps navigation links' style on hover */
 header a:hover {
   font-weight: inherit;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

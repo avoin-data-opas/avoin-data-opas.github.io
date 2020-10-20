@@ -4,7 +4,7 @@ category: jupyter
 
 ## Mikä on Jupyter Notebook?
 
-![jupyter](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="jupyter" width="50%" class="center"/>
 
 Jupyter Notebook on avoimen lähdekoodin työkalu, joka on syntynyt IPythonin pohjalta osana [Project Jupyteria](https://jupyter.org/) vuonna 2014. Niitä voi luoda, käsitellä ja muokata sekä omalla koneellaan että verkon ylitse. 
 

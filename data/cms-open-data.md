@@ -5,7 +5,7 @@ category: data
 
 ## CMS ja avoin data
 
-![cms](https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/RetrieveFile?docid=3045&filename=CMSlogo_color_nolabel_1024_May2014.png&version=3)
+<img src="https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/RetrieveFile?docid=3045&filename=CMSlogo_color_nolabel_1024_May2014.png&version=3" alt="cms" width="40%" class="center"/>
 
 CERNissä toimiva CMS-koe (Compact Muon Solenoid) on yksi suurista yleiskokeista, jossa voidaan kerätä havaintoja laajalla otoksella erilaisiin hiukkasfysiikan polttaviin kysymyksiin. CMS-kollaboraatio on jo vuosia julkaissut havaintojaan avoimesti ulkopuolistenkin käyttöön niin tutkimus- kuin opetustarkoituksiin (kuten [Open Data Portalista näkyy](http://opendata.cern.ch/search?page=1&size=20&experiment=CMS)).
 

@@ -13,33 +13,35 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ '/' | relative_url }}"> Avoin data opetuksessa</a></h1>
-        
-        {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Logo" />
-        {% endif %}
+    <div id="wrapper">
+      <div id="sidebar">
+        <header>
+          <h1><a href="{{ '/' | relative_url }}"> Avoin data opetuksessa</a></h1>
+          
+          {% if site.logo %}
+            <img src="{{ site.logo | relative_url }}" alt="Logo" />
+          {% endif %}
 
-        {% for item in site.data.docs %}
-          <h3><a href="{{ item.name | relative_url }}" {% if page.url == item.url %} class="current" {% endif %}>{{ item.title }}</a></h3> <!--This comes from this repo's _data/docs.yml-->
-            {% if page.category == item.category %}
-              {% for entry in item.subfolderitems %}
-                <h4 class="subnav"><a href="/{{ item.name }}/{{ entry.name }}" {% if page.url == entry.url %} class="current" {% endif %}>{{ entry.title }}</a></h4> 
-              {% endfor %}
-            {% endif %}
-        {% endfor %}
-      </header>  
-      <section>
+          {% for item in site.data.docs %}
+            <h3><a href="{{ item.name | relative_url }}" {% if page.url == item.url %} class="current" {% endif %}>{{ item.title }}</a></h3> <!--This comes from this repo's _data/docs.yml-->
+              {% if page.category == item.category %}
+                {% for entry in item.subfolderitems %}
+                  <h4 class="subnav"><a href="/{{ item.name }}/{{ entry.name }}" {% if page.url == entry.url %} class="current" {% endif %}>{{ entry.title }}</a></h4> 
+                {% endfor %}
+              {% endif %}
+          {% endfor %}
+        </header>
+      <footer id="footer">
+        <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish"><img src="/assets/img/GitHub-Mark-32px.png" width="20" height="20" class="logos" alt="GitHub logo"></a>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish">Materiaalipankki</a></p>
+        <p><small>Ota yhteyttä tai kysy apua: <br> <a href="mailto:apua-avoin-data@cern.ch">apua-avoin-data@cern.ch</a></small></p>
+      </footer>  
+      </div>
+      <section id="content">
 
       {{ content | replace: '<a href="http', '<a rel="nofollow noopener noreferrer" target="_blank" href="http' }}
 
       </section>
-      <footer>
-        <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish"><img src="/assets/img/GitHub-Mark-32px.png" width="20" height="20" class="logos" alt="GitHub logo"></a>
-          <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish">Materiaalipankki</a></p>
-        <p><small>Ota yhteyttä tai kysy apua: <br> <a href="mailto:apua-avoin-data@cern.ch">apua-avoin-data@cern.ch</a></small></p>
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <div class="lang">
