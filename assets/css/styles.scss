@@ -3,24 +3,12 @@
 
 @import "{{ site.theme }}";
 
-/*header {
-  z-index: 1;
-}
-
-footer {
-  z-index: 2;
-}*/
-
-/* Sticking navigation bar to the left of the screen, excluding mobile version */
+/* Sticks navigation bar to the left of the screen, excluding mobile version */
 @media only screen and (min-width: 1025px) {
   body {
     width: 90%;
-    padding: 30px;
+    padding-top: 40px !important;
   }
-
-  /*section {
-    width: 100%;
-  }*/
 
   #wrapper {
     width: 100%;
@@ -39,7 +27,7 @@ footer {
     width: 50%;
     display: block;
     float: right;
-    margin-right: 15%;
+    margin-right: 10%;
     padding-top: 5px;
   }
 
@@ -47,6 +35,33 @@ footer {
     bottom: 30px;
     width: inherit;
   }
+}
+
+/* Edits default settings of ul items */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Sets the language options to align on the same line with each other */
+.li-flag {
+  float: right;
+  padding-left: 1em;
+}
+
+/* Adds shadows to the flag icons */
+.img-flag {
+  box-shadow: 0px 2px 5px #888888;
+}
+
+/* Settings for the lang class div and ul items */
+.lang {
+  width: inherit;
+  text-align: right;
+  margin: 0;
+  display: inline;
+  /* To hide or display the language selection, comment out or add the following line for the display setting */
+  /* display: none; */
 }
 
 /* Sets position for the GitHub logo */
@@ -85,6 +100,7 @@ header a:hover {
   font-weight: inherit;
 }
 
+/* Add an image to this class to center it on the page */
 .center {
   display: block;
   margin-left: auto;
