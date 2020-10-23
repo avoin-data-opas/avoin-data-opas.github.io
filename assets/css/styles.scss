@@ -3,70 +3,104 @@
 
 @import "{{ site.theme }}";
 
+/* Sets the height and includes paddings & margins in element sizes */
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 /* Sticks navigation bar to the left of the screen, excluding mobile version */
 @media only screen and (min-width: 1025px) {
   body {
-    width: 90%;
+    width: 100%;
     padding-top: 40px !important;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
 
   #wrapper {
     width: 100%;
+    flex: 1 0 auto;
+    min-height: 85%;
   }
   
   #sidebar {
     height: 100%;
-    width: 20%;
-    left: 10%;
-    position: fixed;
+    width: 250px;
+    left: 5%;
+    position: relative;
     z-index: 1;
     display: inline-block;
+    clear: both;
+  }
+
+  header {
+    min-height: 90%;
+    width: inherit !important;
+  }
+
+  #nav-footer {
+    bottom: 20px;
+    width: inherit;
   }
 
   #content {
     width: 50%;
     display: block;
     float: right;
-    margin-right: 10%;
-    padding-top: 5px;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    clear: left;
   }
 
-  #footer {
-    bottom: 30px;
-    width: inherit;
+  /* Note that as the footer is located outside content div in the HTML code (to be able to make it is stick to the bottom), 
+  the size and position needs to be set here manually */
+  #content-footer {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 35%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    bottom: 20px;
+    flex-shrink: 0;
   }
 }
 
-/* Edits default settings of ul items */
-ul {
+/* Settings for the lang class div and ul items */
+.lang {
+  width: 90%;
+  text-align: right;
+  margin: 0;
+  display: block;
+  position: absolute;
+  /* To hide or display the language selection, comment out or add the following line for the display setting */
+  /*display: none;*/
+}
+
+/* Styles the language option list */
+.lang ul {
   list-style-type: none;
   padding: 0;
 }
 
 /* Sets the language options to align on the same line with each other */
-.li-flag {
+.lang li {
   float: right;
   padding-left: 1em;
 }
 
 /* Adds shadows to the flag icons */
-.img-flag {
+.lang img {
   box-shadow: 0px 2px 5px #888888;
 }
 
-/* Settings for the lang class div and ul items */
-.lang {
-  width: inherit;
-  text-align: right;
-  margin: 0;
-  display: inline;
-  /* To hide or display the language selection, comment out or add the following line for the display setting */
-  /* display: none; */
-}
-
 /* Sets position for the GitHub logo */
-.logos {
-  display:inline-block;
+#gh-logo {
+  display: inline-block;
   vertical-align: -4px;
   margin-right: 5px;
 }

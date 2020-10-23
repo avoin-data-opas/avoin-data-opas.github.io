@@ -13,12 +13,12 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+    <div id="wrapper">
       <div class="lang">
-        <ul class="lang">
-          <li class="li-flag"><a class="EN" href="{{ page.url | remove: '.html' }}"><img class="img-flag" src="../assets/img/GB.png" alt="English" width="25px"/></a></li>
-          <li class="li-flag"><a class="SE" href="/se{{ page.url | remove_first: '/en' | remove: '.html' }}"><img class="img-flag" src="../assets/img/SE.png" alt="Swedish"width="25px"/></a></li>
-          <li class="li-flag"><a class="FI" href="{{ page.url | remove_first: '/en' | remove: '.html' }}"><img class="img-flag" src="../assets/img/FI.png" alt="Finnish"width="25px"/></a></li>
+        <ul>
+          <li><a class="EN" href="{{ page.url | remove: '.html' }}"><img src="../assets/img/GB.png" alt="English" width="25px"/></a></li>
+          <li><a class="SE" href="/se{{ page.url | remove_first: '/en' | remove: '.html' }}"><img src="../assets/img/SE.png" alt="Swedish"width="25px"/></a></li>
+          <li><a class="FI" href="{{ page.url | remove_first: '/en' | remove: '.html' }}"><img src="../assets/img/FI.png" alt="Finnish"width="25px"/></a></li>
         </ul>
       </div>
       <div id="sidebar">

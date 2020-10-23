@@ -13,14 +13,14 @@
     <![endif]-->
   </head>
   <body>
+    <div class="lang">
+      <ul>
+        <li><a class="EN" href="/en{{ page.url | remove: '.html' }}"><img src="../assets/img/GB.png" alt="English" width="25px"/></a></li>
+        <li><a class="SE" href="/se{{ page.url | remove: '.html' }}"><img src="../assets/img/SE.png" alt="Swedish"width="25px"/></a></li>
+        <li><a class="FI" href="{{ page.url | remove: '.html' }}"><img src="../assets/img/FI.png" alt="Finnish"width="25px"/></a></li>
+      </ul>
+    </div>
     <div id="wrapper">
-      <div class="lang">
-        <ul class="lang">
-          <li class="li-flag"><a class="EN" href="/en{{ page.url | remove: '.html' }}"><img class="img-flag" src="../assets/img/GB.png" alt="English" width="25px"/></a></li>
-          <li class="li-flag"><a class="SE" href="/se{{ page.url | remove: '.html' }}"><img class="img-flag" src="../assets/img/SE.png" alt="Swedish"width="25px"/></a></li>
-          <li class="li-flag"><a class="FI" href="{{ page.url | remove: '.html' }}"><img class="img-flag" src="../assets/img/FI.png" alt="Finnish"width="25px"/></a></li>
-        </ul>
-      </div>
       <div id="sidebar">
         <header>
           <h1><a href="{{ '/' | relative_url }}"> Avoin data opetuksessa</a></h1>
@@ -38,8 +38,8 @@
               {% endif %}
           {% endfor %}
         </header>
-      <footer id="footer">
-        <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish"><img src="/assets/img/GitHub-Mark-32px.png" width="20" height="20" class="logos" alt="GitHub logo"></a>
+      <footer id="nav-footer">
+        <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish"><img id="gh-logo" src="/assets/img/GitHub-Mark-32px.png" width="20" height="20" alt="GitHub logo"></a>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish">Materiaalipankki</a></p>
         <p><small>Ota yhteyttä tai kysy apua: <br> <a href="mailto:apua-avoin-data@cern.ch">apua-avoin-data@cern.ch</a></small></p>
       </footer>  
@@ -50,6 +50,12 @@
 
       </section>
     </div>
+    <footer id="content-footer">
+      <hr>
+      <p><small>Toteutettu Opetushallituksen valtionavustuksella tiedekasvatuksen edistämiseen.<br/>
+        Tämän sivuston materiaali on käytettävissä <a rel="license nofollow noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 -lisenssillä</a>.</small></p>
+      <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi/"><img class="center" src="../assets/img/HIP-horizontal.png" alt="Helsinki Institute of Physics logo" height="50px"/></a></p>
+    </footer>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
