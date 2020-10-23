@@ -9,8 +9,12 @@ html, body {
   box-sizing: border-box;
 }
 
+#wrapper {
+  display: inline-block;
+}
+
 /* Sticks navigation bar to the left of the screen, excluding mobile version */
-@media only screen and (min-width: 1025px) {
+@media only print, screen and (min-width: 960px) {
   body {
     width: 100%;
     padding-top: 40px !important;
@@ -32,7 +36,6 @@ html, body {
     position: relative;
     z-index: 1;
     display: inline-block;
-    clear: both;
   }
 
   header {
@@ -43,6 +46,21 @@ html, body {
   #nav-footer {
     bottom: 20px;
     width: inherit;
+  }
+
+  .lang {
+    position: absolute;
+    text-align: right;
+  }
+
+    /* Sets the language options to align on the same line with each other */
+  .lang li {
+    float: right;
+    padding-left: 1em;
+  }
+
+  .lang img {
+    height: 19px;
   }
 
   #content {
@@ -62,21 +80,84 @@ html, body {
     float: right;
     position: relative;
     left: 35%;
-    padding-top: 10px;
     padding-bottom: 20px;
-    text-align: center;
     bottom: 20px;
     flex-shrink: 0;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+
+  body {
+    padding-top: 20px !important;
+  }
+  
+  #content {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 0px;
+  }
+
+  .lang {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
+
+    /* Sets the language options to align on the same line with each other */
+  .lang li {
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+  }
+
+  .lang img {
+    height: 19px;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding-top: 0px !important;
+  }
+
+  .lang {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .lang li {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 1em;
+  }
+
+  .lang img {
+    height: 25px;
+    display: block;
+  }
+}
+
+#content-footer {
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 15px;
+}
+
+@media print, screen and (max-height: 400px) and (min-width: 960px) {
+  #nav-footer {
+    position: fixed;
+    top: 280px;
   }
 }
 
 /* Settings for the lang class div and ul items */
 .lang {
   width: 90%;
-  text-align: right;
-  margin: 0;
+  height: 40px;
   display: block;
-  position: absolute;
   /* To hide or display the language selection, comment out or add the following line for the display setting */
   /*display: none;*/
 }
@@ -85,12 +166,6 @@ html, body {
 .lang ul {
   list-style-type: none;
   padding: 0;
-}
-
-/* Sets the language options to align on the same line with each other */
-.lang li {
-  float: right;
-  padding-left: 1em;
 }
 
 /* Adds shadows to the flag icons */
@@ -130,7 +205,7 @@ body a:hover, a:active {
 }
 
 /* Keeps navigation links' style on hover */
-header a:hover {
+header a:hover, a:active {
   font-weight: inherit;
 }
 
