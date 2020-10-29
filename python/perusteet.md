@@ -1,4 +1,7 @@
 ---
+title: Perusteet
+lang: fi
+ref: perusteet
 category: python
 ---
 

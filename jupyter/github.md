@@ -1,4 +1,7 @@
 ---
+title: GitHubiin tallentaminen
+lang: fi
+ref: github
 category: jupyter
 ---
 

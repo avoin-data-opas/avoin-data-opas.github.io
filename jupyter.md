@@ -1,4 +1,7 @@
 ---
+title: Jupyter Notebooks -ympäristö
+lang: fi
+ref: jupyter
 category: jupyter
 ---
 

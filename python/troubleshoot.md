@@ -1,4 +1,7 @@
 ---
+title: Ongelmia?
+lang: fi
+ref: troubleshoot
 category: python
 ---
 

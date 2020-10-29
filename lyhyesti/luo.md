@@ -1,4 +1,7 @@
 ---
+title: Miten luon oman sivun
+lang: fi
+ref: luo
 category: lyhyesti
 ---
 

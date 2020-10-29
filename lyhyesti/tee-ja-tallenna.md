@@ -1,4 +1,7 @@
 ---
+title: Miten tallennan vastaukset
+lang: fi
+ref: tee-ja-tallenna
 category: lyhyesti
 ---
 

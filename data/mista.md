@@ -1,4 +1,7 @@
 ---
+title: Mistä löydän dataa
+lang: fi
+ref: mista
 category: data
 ---
 
@@ -11,20 +14,21 @@ Muutamia hyviä paikkoja tietojen hakuun:
 **CERN Open Data Portal**
 [http://opendata.cern.ch/](http://opendata.cern.ch/)
 
-Valtavat määrät tutkimus- ja opetustason datasettejä. Valintatyökaluista voi etsiä näppärästi esim. koeaseman ja tiedostotyypin mukaan haluamiaan materiaaleja.
 ![](../assets/img/CERNportal.png)
+Valtavat määrät tutkimus- ja opetustason datasettejä. Valintatyökaluista voi etsiä näppärästi esim. koeaseman ja tiedostotyypin mukaan haluamiaan materiaaleja.
 
 **Avoindata.fi**
 [https://www.avoindata.fi/fi](https://www.avoindata.fi/fi)
 
-Kotimainen varasto erilaisille yhteiskunnallisille materiaaleille. Kaupunkien ilmanlaatumittauksia, kaupunkipyörien matkadataa, nimitietoja, liikennevälinerekisteri...
 ![](../assets/img/avoidatafi.png)
+Kotimainen varasto erilaisille yhteiskunnallisille materiaaleille. Kaupunkien ilmanlaatumittauksia, kaupunkipyörien matkadataa, nimitietoja, liikennevälinerekisteri...
+
 
 **Our World in Data**
 [https://ourworldindata.org/](https://ourworldindata.org/)
 
-Suuri varasto kaikenlaisiin aiheisiin sopivia kuvaajia ja linkkejä niiden aineistoihin, käytetty Suomessakin useissa uutiskanavissa.
 ![](../assets/img/OurWorld.png)
+Suuri varasto kaikenlaisiin aiheisiin sopivia kuvaajia ja linkkejä niiden aineistoihin, käytetty Suomessakin useissa uutiskanavissa.
 
 **Open Power System Data**
 [https://open-power-system-data.org/](https://open-power-system-data.org/)

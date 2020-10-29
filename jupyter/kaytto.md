@@ -1,4 +1,7 @@
 ---
+title: Käyttöönotto
+lang: fi
+ref: kaytto
 category: jupyter
 ---
 
@@ -65,6 +68,16 @@ VII Sama juttu pikalinkkien kanssa, Colabiinkin voi viitata suoraan yhdellä kli
 
 
 ### 2. Pikaohje omalla koneella toimimiseen
+
+#### Materiaalien lataaminen
+
+I Jos haluat käyttää materiaalipankkimme materiaaleja omalla koneellasi, sinun tulee ensin ladata ne [GitHub-sivultamme](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish). Voit ladata kaiken sisällön kerralla zip-pakettina klikkaamalla nappia "Code" ja valitsemalla vaihtoehdon "Download ZIP":
+
+![GitHub-materiaalien lataaminen](../assets/img/github-materiaalien-lataaminen-nuolilla.png)
+
+II Pura zip-paketti haluamaasi kansioon tietokoneellesi.
+
+#### Materiaalien käyttäminen
 
 I Asenna koneellesi sopiva sovellus, kuten itse [Jupyter Notebook](https://jupyter.org/) tai laajempi datatieteen paketti kuten [Anaconda](https://www.anaconda.com/products/individual), jossa on aiempi mukana.
 

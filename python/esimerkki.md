@@ -1,4 +1,7 @@
 ---
+title: Esimerkkejä
+lang: fi
+ref: esimerkki
 category: python
 ---
 

@@ -1,4 +1,7 @@
 ---
+title: Alkuun datan kanssa
+lang: fi
+ref: data
 category: data
 ---
 

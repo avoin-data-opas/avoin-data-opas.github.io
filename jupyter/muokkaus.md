@@ -1,4 +1,7 @@
 ---
+title: Materiaalien kanssa työskentely
+lang: fi
+ref: muokkaus
 category: jupyter
 ---
 

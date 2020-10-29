@@ -1,4 +1,7 @@
 ---
+title: Miten muokkaan sivua
+lang: fi
+ref: muokkaa
 category: lyhyesti
 ---
 

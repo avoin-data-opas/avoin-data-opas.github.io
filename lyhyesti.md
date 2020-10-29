@@ -1,4 +1,7 @@
 ---
+title: Lyhyesti
+lang: fi
+ref: lyhyesti
 category: lyhyesti
 ---
 

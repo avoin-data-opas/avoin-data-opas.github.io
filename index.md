@@ -1,4 +1,7 @@
 ---
+title: Avoin data opetuskäyttöön - näillä ohjeilla alkuun!
+lang: fi
+ref: index
 ---
 
 ## Tervetuloa avoimen datan pariin!

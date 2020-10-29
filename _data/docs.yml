@@ -1,133 +1,70 @@
-- name: lyhyesti
-  url: /lyhyesti.html
-  category: lyhyesti
-  title: Lyhyesti
-  title-en: Quickstart
-
-  subfolderitems:
-  - name: materiaalit
-    url: /lyhyesti/materiaalit.html
-    category: lyhyesti
-    title: Missä materiaalit
-
-  - name: avaa
-    url: /lyhyesti/avaa.html
-    category: lyhyesti
-    title: Miten avaan sivun
-
-  - name: muokkaa
-    url: /lyhyesti/muokkaa.html
-    category: lyhyesti
-    title: Miten muokkaan sivua
-
-  - name: luo
-    url: /lyhyesti/luo.html
-    category: lyhyesti
-    title: Miten luon oman sivun
-
-  - name: tee-ja-tallenna
-    url: /lyhyesti/tee-ja-tallenna.html
-    category: lyhyesti
-    title: Miten tallennan vastaukset
+fi: 
+  - page: Lyhyesti
+    url: /lyhyesti.html
+    subfolderitems:
+    - page: Missä materiaalit
+      url: /lyhyesti/materiaalit.html
+    - page: Miten avaan sivun
+      url: /lyhyesti/avaa.html 
+    - page: Miten muokkaan sivua
+      url: /lyhyesti/muokkaa.html
+    - page: Miten luon oman sivun
+      url: /lyhyesti/luo.html
+    - page: Miten tallennan vastaukset
+      url: /lyhyesti/tee-ja-tallenna.html
+    - page: Esimerkkisivu
+      url: /lyhyesti/esimerkkisivu.html
+      
     
-  - name: esimerkkisivu
-    url: /lyhyesti/esimerkkisivu.html
-    category: lyhyesti
-    title: Esimerkkisivu
-  
-- name: jupyter
-  url: /jupyter.html
-  category: jupyter
-  title: Jupyter Notebooks -ympäristö
-  title-en: Jupyter Notebooks
-
-  subfolderitems:
-  - name: tiedot
-    url: /jupyter/tiedot.html
-    category: jupyter
-    title: Mistä on kyse
-    time: 10 min
+  - page: Jupyter Notebooks -ympäristö
+    url: /jupyter.html
+    subfolderitems:
+    - page: Mistä on kyse
+      url: /jupyter/tiedot.html  
+    - page: Käyttöönotto
+      url: /jupyter/kaytto.html  
+    - page: Materiaalien kanssa työskentely
+      url: /jupyter/muokkaus.html     
+    - page: GitHubiin tallentaminen
+      url: /jupyter/github.html
+      
     
-  - name: kaytto
-    url: /jupyter/kaytto.html
-    category: jupyter
-    title: Käyttöönotto
-    time: 10 min
+  - page: Python ohjelmointikielenä
+    url: /python.html
+    subfolderitems:
+    - page: Perusteet
+      url: /python/perusteet.html 
+    - page: Kirjastot ja moduulit
+      url: /python/kirjastot.html
+    - page: Esimerkkejä
+      url: /python/esimerkki.html  
+    - page: Ongelmia?
+      url: /python/troubleshoot.html
+      
     
-  - name: muokkaus
-    url: /jupyter/muokkaus.html
-    category: jupyter
-    title: Materiaalien kanssa työskentely
-    time: 10 min
+  - page: Alkuun datan kanssa
+    url: /data.html 
+    subfolderitems:
+    - page: Mitä data on
+      url: /data/mita.html
+    - page: Mistä löydän dataa
+      url: /data/mista.html
+    - page: Tiedostomuodoista
+      url: /data/muodot.html
+    - page: CMS ja avoin data
+      url: /data/cms-open-data.html
+    - page: Muita konteksteja
+      url: /data/muita.html
+    - page: Esimerkkejä
+      url: /data/esimerkki.html
+      
 
-  - name: github
-    url: /jupyter/github.html
-    category: github
-    title: GitHubiin tallentaminen
 
-  
-- name: python
-  url: /python.html
-  category: python
-  title: Python ohjelmointikielenä
-  title-en: Basic Python
+en:
+  - page: Quickstart
+  - page: Jupyter Notebooks
+  - page: Basic Python
+  - page: Getting started with data 
 
-  subfolderitems:
-  - name: perusteet
-    url: /python/perusteet.html
-    category: python
-    title: Perusteet
-    
-  - name: kirjastot
-    url: /python/kirjastot.html
-    category: python
-    title: Kirjastot ja moduulit
 
-  - name: esimerkki
-    url: /python/esimerkki.html
-    category: python
-    title: Esimerkkejä
-
-  - name: troubleshoot
-    url: /python/troubleshoot.html
-    category: python
-    title: Ongelmia?
-
-  
-- name: data
-  url: /data.html
-  category: data
-  title: Alkuun datan kanssa
-  title-en: Getting started with data
-
-  subfolderitems:
-  - name: mita
-    url: /data/mita.html
-    category: data
-    title: Mitä data on
-
-  - name: mista
-    url: /data/mista.html
-    category: data
-    title: Mistä löydän dataa
-
-  - name: muodot
-    url: /data/muodot.html
-    category: data
-    title: Tiedostomuodoista
-
-  - name: cms-open-data
-    url: /data/cms-open-data.html
-    category: data
-    title: CMS ja avoin data
-
-  - name: muita
-    url: /data/muita.html
-    category: data
-    title: Muita konteksteja
-
-  - name: esimerkki
-    url: /data/esimerkki.html
-    category: data
-    title: Esimerkkejä
-  
+se:

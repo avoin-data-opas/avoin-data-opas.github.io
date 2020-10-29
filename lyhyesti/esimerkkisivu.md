@@ -1,4 +1,7 @@
 ---
+title: Esimerkkisivu
+lang: fi
+ref: esimerkkisivu
 category: lyhyesti
 ---
 

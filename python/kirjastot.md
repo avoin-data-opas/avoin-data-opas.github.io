@@ -1,4 +1,7 @@
 ---
+title: Kirjastot ja moduulit
+lang: fi
+ref: kirjastot
 category: python
 ---
 
@@ -22,4 +25,4 @@ data = pd.read_csv("LinkkiKohteeseen.csv")
 h = 4/np.pi
 ````
 
-Internetin hakukoneilla löytää hyvin nopeasti kulloinkin tarvittavia paketteja, mutta kannattaa huomata ettei näihin pääse suoraan käsiksi kaikista ympäristöistä. Paketteja voi ladata koneelleen PIP-käskyllä (preferred installer program, useimpiin ympäristöihin sisäänrakennettu työkalu pakettien asennukseen komentorivin kautta) tai selainympäristössä (MyBinder, CoLab...) mainitsemalla ne etukäteen requirements.txt -tiedostossa, jonka pohjalta virtuaalinen työtila rakennetaan.
+Internetin hakukoneilla löytää hyvin nopeasti kulloinkin tarvittavia paketteja, mutta kannattaa huomata ettei näihin pääse suoraan käsiksi kaikista ympäristöistä. Paketteja voi ladata koneelleen [PIP-käskyllä](https://www.w3schools.com/python/python_pip.asp) (preferred installer program, useimpiin ympäristöihin sisäänrakennettu työkalu pakettien asennukseen komentorivin kautta) tai selainympäristössä (MyBinder, CoLab...) mainitsemalla ne etukäteen requirements.txt -tiedostossa, jonka pohjalta virtuaalinen työtila rakennetaan.

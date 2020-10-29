@@ -4,15 +4,20 @@ url: "https://avoin-data-opas.github.io"
 defaults:
     -
      scope:
-         path: "en"
-     values:
-         layout: default_en
-         lang: en
-         baseurl: "en/"
-    -
-     scope:
          path: ""
      values:
-         lang: fi
-         baseurl: ""
          layout: default
+         lang: fi
+         base-url: ""
+    -
+     scope:
+         path: "se"
+     values:
+         lang: se
+         base-url: "se/"
+    -
+     scope:
+         path: "en"
+     values:
+         lang: en
+         base-url: "en/"

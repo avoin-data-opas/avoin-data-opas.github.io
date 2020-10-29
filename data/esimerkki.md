@@ -1,4 +1,7 @@
 ---
+title: Esimerkkejä
+lang: fi
+ref: data-esimerkki
 category: data
 ---
 

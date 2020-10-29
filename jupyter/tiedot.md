@@ -1,4 +1,7 @@
 ---
+title: Mistä on kyse
+lang: fi
+ref: tiedot
 category: jupyter
 ---
 
