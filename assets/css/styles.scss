@@ -151,10 +151,12 @@ html, body {
   padding-top: 15px;
 }
 
-@media print, screen and (max-height: 400px) and (min-width: 960px) {
+/* Manually setting the navigation footer position so that it won't overlap the navigation links in a small window on the main page.
+If the number of navigation links changes, attributes max-height and top need to be changed here. */
+@media print, screen and (max-height: 440px) and (min-width: 960px) {
   #nav-footer {
     position: fixed;
-    top: 280px;
+    top: 310px;
   }
 }
 

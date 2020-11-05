@@ -15,7 +15,6 @@ fi:
     - page: Esimerkkisivu
       url: /lyhyesti/esimerkkisivu.html
       
-    
   - page: Jupyter Notebooks -ympäristö
     url: /jupyter.html
     subfolderitems:
@@ -26,8 +25,7 @@ fi:
     - page: Materiaalien kanssa työskentely
       url: /jupyter/muokkaus.html     
     - page: GitHubiin tallentaminen
-      url: /jupyter/github.html
-      
+      url: /jupyter/github.html 
     
   - page: Python ohjelmointikielenä
     url: /python.html
@@ -39,8 +37,7 @@ fi:
     - page: Esimerkkejä
       url: /python/esimerkki.html  
     - page: Ongelmia?
-      url: /python/troubleshoot.html
-      
+      url: /python/troubleshoot.html 
     
   - page: Alkuun datan kanssa
     url: /data.html 
@@ -57,7 +54,9 @@ fi:
       url: /data/muita.html
     - page: Esimerkkejä
       url: /data/esimerkki.html
-      
+   
+  - page: Esimerkkityöpaja
+    url: /tyopaja.html
 
 
 en:
