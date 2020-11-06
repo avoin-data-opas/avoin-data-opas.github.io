@@ -7,26 +7,31 @@ category: tyopaja
 
 ## Työpaja lukiolaisille
 
-Tältä sivulta löydät lukiotasoisen esimerkkityöpajan, jonka suunniteltu kesto on kokonaisuudessaan noin 2,5 h.
+Tältä sivulta löydät lukiotasoisen esimerkkityöpajan, jonka suunniteltu kesto on kokonaisuudessaan noin 2 h.
 
 Ohjeellinen rakenne ja aikataulu:
 
 | #  |       Aktiviteetti       | Aika-arvio |
 |---:|--------------------------|--------|
 | 1. | Aloitus                  | 40 min |
-| 2. | Työkaluihin tutustuminen | 40 min |
+| 2. | Työkaluihin tutustuminen | 30 min |
 | 3. | Tauko                    | 10 min |
-| 4. | Demojen kokeilua         | 60 min |
-
+| 4. | Hiukkasfysiikan harjoitteita | 30 min |
+| 5. | Lisäharjoitteita         | 30 min |
 
 ### 1. Aloitus
 
-Tähän aloituspresikset
+Live-työpajassa työpaja aloitetaan presentaatiolla CERN:istä ja hiukkastutkimuksesta. 
+
+Mikäli paikalla ei ole esittelijää, CERN:in sivuilta löytyy myös havainnollistavia videoita aiheista. Pohjatiedoksi voi katsoa esimerkiksi seuraavia videoita:
+- [Datan prosessointi](https://videos.cern.ch/record/1541893)
+
+---
 
 ### 2. Työkaluihin tutustuminen
 
 Alla esittelemme muutamia harjoituksien kannalta olennaisia työkaluja. Aiempaa kokemusta ohjelmoinnista tai hiukkasfysiikasta et tarvitse, vaan pääset alkuun helposti seuraavien tehtävien avulla:
- 
+
 #### Python tutorial [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FAvoinDataHiukkasfysiikassa%2F3_Data-analyysi%2F00_Python-tutorial.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Opetusmateriaalit/AvoinDataHiukkasfysiikassa/3_Data-analyysi/00_Python-tutorial.ipynb)
 Harjoituksissa tarvittavat perustiedot Python ohjelmointikielen käyttöön
 
@@ -42,9 +47,15 @@ Kiinnostaako, miltä hiukkausten törmäykset näyttävät? Törmäykset tapahtu
 
 Tehtyäsi edelliset tehtävät voit tutustua hiukkasdataan ohjelmoinnin kannalta tällä harjoituksella, jossa vertaillaan datan perusteella piirrettyjä histogrammeja
 
-### 3. Demoja
+---
 
-Kun olet tutustunut edellisen osion materiaaleihin, voit kokeilla alta löytyviä tehtäviä haluamassasi järjestyksessä oman kiinnostuksesi mukaan. Alusta löydät hiukkasfysiikan demoja ja niiden jälkeen demoja liittyen muihin aiheisiin.
+### 3. Tauko
+
+---
+
+### 4. Hiukkasfysiikan harjoitteita
+
+Kun olet tutustunut edellisen osion materiaaleihin, voit kokeilla alta löytyviä tehtäviä haluamassasi järjestyksessä oman kiinnostuksesi mukaan. Tästä osiosta löydät hiukkasfysiikan harjoituksia CMS-ilmaisimesta kerättyyn dataan pohjautuen.
 
 #### Higgs hakusessa [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FHiggs-hakusessa-4-leptonia.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb)
 Löydä Higgsin hiukkanen ja voita oma Nobel-palkinto!
@@ -54,6 +65,10 @@ Tässä harjoituksessa voit interaktiivisesti kokeilla, miten käytetty datamä�
 
 #### Sovite, poikittaisliikemäärä ja pseudorapiditeetti [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FSovite%2C%20poikittaisliikem%C3%A4%C3%A4r%C3%A4%20ja%20pseudorapiditeetti.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Sovite%2C%20poikittaisliikem%C3%A4%C3%A4r%C3%A4%20ja%20pseudorapiditeetti.ipynb)
 Tässä tehtävässä pääset sovittamaan normaalijakauman hiukkasdataan ja tutustumaan poikittaisliikemäärän ja pseudorapiditeetin käsitteisiin.
+
+---
+
+### 5. Lisäharjoitteita
 
 Alla olevissa demoissa sovelletaan data-analytiikan ja ohjelmoinnin työkaluja muihin kuin hiukkasfysiikan aiheisiin.
 
