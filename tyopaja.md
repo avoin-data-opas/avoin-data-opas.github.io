@@ -17,7 +17,7 @@ Ohjeellinen rakenne ja aikataulu:
 | 2. | Työkaluihin tutustuminen | 30 min |
 | 3. | Tauko                    | 10 min |
 | 4. | Hiukkasfysiikan harjoitteita | 30 min |
-| 5. | Lisäharjoitteita         | 30 min |
+| 5. | Lisäharjoitteita         | 40 min |
 
 ### 1. Aloitus
 
@@ -71,6 +71,12 @@ Tässä tehtävässä pääset sovittamaan normaalijakauman hiukkasdataan ja tut
 ### 5. Lisäharjoitteita
 
 Alla olevissa demoissa sovelletaan data-analytiikan ja ohjelmoinnin työkaluja muihin kuin hiukkasfysiikan aiheisiin.
+
+#### 1854 koleraepidemia [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2F1854_koleraepidemia.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/1854_koleraepidemia.ipynb)
+Data ja tilastot taistelussa kulkutauteja vastaan. Tiedät sittenkin, John Snow!
+
+#### CERN:in henkilöstö [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FCERN_henkilosto.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/CERN_henkilosto.ipynb)
+Keitä CERN:ssä työskentelee? Tutkitaanpa vähän tilastoja!
 
 #### Taivasta kartoittamassa [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FTaivasta_kartoittamassa.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/Taivasta_kartoittamassa.ipynb)
 Tutkitaan tähtiä!
