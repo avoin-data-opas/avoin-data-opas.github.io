@@ -7,7 +7,7 @@ category: tyopaja
 
 ## Työpaja lukiolaisille
 
-Tältä sivulta löydät lukiotasoisen esimerkkityöpajan, jonka suunniteltu kesto on kokonaisuudessaan noin 2,5 h.
+Tältä sivulta löydät lukiotasoisen esimerkkityöpajan, jonka suunniteltu kesto on kokonaisuudessaan noin 2 h.
 
 Ohjeellinen rakenne ja aikataulu:
 
