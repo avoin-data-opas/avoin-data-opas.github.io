@@ -10,7 +10,7 @@ Tältä sivulta löydät ohjeita ja lukiotason harjoitteita Python-kielellä ohj
 
 Nopeasti alkuun pääset aloittamalla viereisen valikon kohdasta "Lyhyesti". Tarkemmin tehtävissä käytettäviin teknologioihin voit perehtyä lisää osioissa "Jupyter Notebooks -ympäristö" ja "Python ohjelmointikielenä. "Alkuun datan kanssa"-osiosta taas löydät ohjeita tietoaineistojen etsimiseen, jotka voivat toimia inspiraationa omiin dataprojekteihin.
 
-![kuva](higgsOD.png)
+![kuva](../higgsOD.png)
 
 Antoisaa puuhastelua avoimen datan äärellä!
 
