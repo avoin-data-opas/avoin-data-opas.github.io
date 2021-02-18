@@ -4,11 +4,13 @@ lang: se
 ref: index
 ---
 
-## Översättning pågår Tervetuloa avoimen datan pariin!
+## Översättning pågår Välkommen att använda Open Data!
 
-Tältä sivulta löydät ohjeita ja lukiotason harjoitteita Python-kielellä ohjelmointiin avoimen datan parissa. Aihepiireihin mahtuu kaikenlaista hiukkasfysiikasta epidemiologiaan. Sisältö sopii omatoimiseen tutustumiseen, avuksi avoimen datan käyttöönoton kurssitukseen tai vaikkapa lisäprojektiksi uteliaalle opiskelijalle. Materiaaleihin sisään pääseminen ei edellytä aiempaa ohjelmointikokemusta.
+På denna sida hittar du instruktioner och övningsuppgifter för att lära dig behandla Open Data genom Python-programmering. Uppgifterna är ämnade för gymnasiestuderande. Uppgifternas teman innefattar allt från partikelfysik till epidemiologi. Sidans innehåll lämpar sig för självständig inlärning, som stöd för undervisning eller som extraprojekt för den nyfikne eleven. Inga tidigare erfarenheter av programmering krävs för att ta del av materialet.
 
 Nopeasti alkuun pääset aloittamalla viereisen valikon kohdasta "Lyhyesti". Tarkemmin tehtävissä käytettäviin teknologioihin voit perehtyä lisää osioissa "Jupyter Notebooks -ympäristö" ja "Python ohjelmointikielenä. "Alkuun datan kanssa"-osiosta taas löydät ohjeita tietoaineistojen etsimiseen, jotka voivat toimia inspiraationa omiin dataprojekteihin.
+För att komma igång med guiden kan du välja "I korthet" i menyn till vänster. Du kan också bekanta dig mer med programmen som används i uppgifterna genom menyalternativen "Jupyter Notebooks-miljön" och "Python som programmeringsspråk"
+
 
 ![kuva](../higgsOD.png)
 
