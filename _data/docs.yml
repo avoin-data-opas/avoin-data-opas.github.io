@@ -67,3 +67,62 @@ en:
 
 
 se:
+- page: I Korthet
+    url: /se/lyhyesti.html
+    subfolderitems:
+    - page: Var finns materialet?
+      url: /se/lyhyesti/materiaalit.html
+    - page: Hur öppnar jag en Notebook?
+      url: /se/lyhyesti/avaa.html 
+    - page: Hur ändrar jag en Notebook?
+      url: /se/lyhyesti/muokkaa.html
+    - page: Hur skapar jag en egen Notebook?
+      url: /se/lyhyesti/luo.html
+    - page: Hur sparar jag svaren?
+      url: /se/lyhyesti/tee-ja-tallenna.html
+    - page: Exempel på Notebook
+      url: /se/lyhyesti/esimerkkisivu.html
+      
+  - page: Jupyter Notebooks -miljön
+    url: /se/jupyter.html
+    subfolderitems:
+    - page: Vad handlar den om?
+      url: /se/jupyter/tiedot.html  
+    - page: Ta Jupyter i bruk
+      url: /se/jupyter/kaytto.html  
+    - page: Att arbeta med material
+      url: /se/jupyter/muokkaus.html     
+    - page: Att spara i GitHub
+      url: /se/jupyter/github.html 
+    
+  - page: Python som programmeringsspråk
+    url: /se/python.html
+    subfolderitems:
+    - page: Grunder
+      url: /se/python/perusteet.html 
+    - page: Bibliotek och moduler
+      url: /se/python/kirjastot.html
+    - page: Exempel
+      url: /se/python/esimerkki.html  
+    - page: Problem?
+      url: /se/python/troubleshoot.html 
+    
+  - page: Kom igång med Data
+    url: /se/data.html 
+    subfolderitems:
+    - page: Vad är Data?
+      url: /data/mita.html
+    - page: Var hittar jag Data?
+      url: /data/mista.html
+    - page: Om filformat
+      url: /data/muodot.html
+    - page: CMS och OpenData
+      url: /data/cms-open-data.html
+    - page: Andra sammanhang
+      url: /data/muita.html
+    - page: Exempel
+      url: /data/esimerkki.html
+   
+  - page: Exempellektion
+    url: /se/tyopaja.html
+
