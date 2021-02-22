@@ -1,6 +1,6 @@
 ---
-title: Esimerkkisivu
-lang: fi
+title: Exempel på Notebook
+lang: se
 ref: esimerkkisivu
 category: lyhyesti
 ---
