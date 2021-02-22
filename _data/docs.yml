@@ -67,7 +67,7 @@ en:
 
 
 se:
-- page: I Korthet
+  - page: I Korthet
     url: /se/lyhyesti.html
     subfolderitems:
     - page: Var finns materialet?
