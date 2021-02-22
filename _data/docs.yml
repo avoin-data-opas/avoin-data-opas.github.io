@@ -76,9 +76,9 @@ se:
       url: /se/lyhyesti/avaa.html 
     - page: Hur ändrar jag en Notebook?
       url: /se/lyhyesti/muokkaa.html
-    - page: Hur skapar jag en egen Notebook?
+    - page: Hur skapar jag en Notebook?
       url: /se/lyhyesti/luo.html
-    - page: Hur sparar jag svaren?
+    - page: Hur sparar jag en Notebook?
       url: /se/lyhyesti/tee-ja-tallenna.html
     - page: Exempel på Notebook
       url: /se/lyhyesti/esimerkkisivu.html
