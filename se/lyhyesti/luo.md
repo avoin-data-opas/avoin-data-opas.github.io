@@ -1,14 +1,14 @@
 ---
-title: Miten luon oman sivun
-lang: fi
+title: Hur skapar jag en egen Notebook?
+lang: se
 ref: luo
 category: lyhyesti
 ---
 
-## Uuden Notebookin luominen
+## Att skapa en ny Notebook
 
-Voit luoda uuden muistion joko avonaisen tiedoston tai kohdekansion valikon kautta.
+Du kan skapa en ny Notebook, antingen genom jupyters **"file"**-meny eller direkt i mappen.
 
-![new](../assets/img/new.png)
+![new](../../assets/img/new.png)
 
-![new](../assets/img/tree2.png)
+![new](../../assets/img/tree2.png)
