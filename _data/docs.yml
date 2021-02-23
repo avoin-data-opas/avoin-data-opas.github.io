@@ -86,7 +86,7 @@ se:
   - page: Jupyter Notebooks -miljön
     url: /se/jupyter.html
     subfolderitems:
-    - page: Vad handlar den om?
+    - page: Vad är den?
       url: /se/jupyter/tiedot.html  
     - page: Ta Jupyter i bruk
       url: /se/jupyter/kaytto.html  
