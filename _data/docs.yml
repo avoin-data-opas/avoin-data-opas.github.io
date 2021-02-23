@@ -90,7 +90,7 @@ se:
       url: /se/jupyter/tiedot.html  
     - page: Ta Jupyter i bruk
       url: /se/jupyter/kaytto.html  
-    - page: Att arbeta med material
+    - page: Filbehandling i Notebook
       url: /se/jupyter/muokkaus.html     
     - page: Att spara i GitHub
       url: /se/jupyter/github.html 
