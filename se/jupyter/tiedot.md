@@ -1,15 +1,17 @@
 ---
-title: Mistä on kyse
+title: Vad är den?
 lang: fi
 ref: tiedot
 category: jupyter
 ---
 
-## Mikä on Jupyter Notebook?
+## Vad är en Jupyter Notebook?
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="jupyter" width="50%" class="center"/>
 
-Jupyter Notebook on avoimen lähdekoodin työkalu, joka on syntynyt IPythonin pohjalta osana [Project Jupyteria](https://jupyter.org/) vuonna 2014. Niitä voi luoda, käsitellä ja muokata sekä omalla koneellaan että verkon ylitse. 
+Jupyter Notebook är ett verktyg för öppen kodbehandling. Den har utvecklats från IPython som en del av [Project Jupyter](https://jupyter.org/) år 2014. Man kan skapa, hantera och ändra Notebooks lokalt på egen dator såväl som över nätet.
+
+Fördelarna med notebooks är stora för 
 
 Notebookien vahvuudet ovat opetustoimen tarpeisiin mitä parhaimmat. Ei erityisempää asennushäslinkiä, ei raskasta kehitystyöympäristöä, jakaminen ja muokkaaminen on helppoa, jatkuva kyky ajaa ja muokata yksittäisiä paloja koodissa, systeemiä ei ole sidottu mihinkään tiettyyn aiheeseen ja niin edelleen. Tarjottujen harjoitteiden pohjalta opettajien on helppoa lähteä luomaan omia materiaalejaan.  
 
