@@ -1,6 +1,6 @@
 ---
 title: Filbehandling i Notebook
-lang: fi
+lang: se
 ref: muokkaus
 category: jupyter
 ---
