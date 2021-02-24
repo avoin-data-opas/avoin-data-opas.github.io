@@ -1,6 +1,6 @@
 ---
 title: Vad är den?
-lang: fi
+lang: se
 ref: tiedot
 category: jupyter
 ---
