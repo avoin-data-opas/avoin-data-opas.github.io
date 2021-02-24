@@ -1,5 +1,5 @@
 ---
-title: Vad är den?
+title: Vad är en Notebook?
 lang: se
 ref: tiedot
 category: jupyter
