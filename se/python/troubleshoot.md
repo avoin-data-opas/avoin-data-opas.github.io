@@ -1,17 +1,17 @@
 ---
-title: Ongelmia?
-lang: fi
+title: Problem?
+lang: se
 ref: troubleshoot
 category: python
 ---
 
-## Ongelmia?
+## Problem?
 
-Kooste:
+Innehåll:
 
-- [Yhyy, en osaa?](#1)
-- [Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?](#2)
-- [Virheilmoitus herjaa 'nimi is not defined' tai 'nimi does not exist'?](#3)  
+- [Buhuu, jag kan inte!](#1)
+- [Jag försökte köra en cell, men den blir inte klar och ritar inte ut min figur.](#2)
+- [Felmeddelandet säger att "variabel is not defined" eller "variabel does not exist"](#3)  
 - [Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?](#4)
 - [Datani ei suostu lataamaan?](#5)
 - [Lataamassani datassa on jotain omituisia 'NaN'-arvoja?](#6)
@@ -21,26 +21,21 @@ Kooste:
 - [Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?](#10)
 
 
-<h3 id="1">Yhyy, en osaa?</h3>
+<h3 id="1">Buhuu, jag kan inte!?</h3>
 
-Nou hätä, kukaan ei aloita mestarina. Tekemällä oppii ja virheet kuuluvat asiaan.
-Pythonissa on kivana puolena sen laaja käyttäjäkunta: mitä ikinä keksitkään kysyä, et ole ensimmäinen ja vastaus luultavasti löytyy ensimmäisten googlaustulosten joukosta (esim. StackExchange on hyvä paikka vastausten löytämiseen).
-Tässä on ohjeita muutamiin yleisimpiin ongelmatilanteisiin.
+Ingen panik, ingen är född mästare. Man lär sig genom att försöka och misslyckanden hör till processen.
+En fördel med Python är den stora användarskaran: Vad du än kan tänka dig behöva veta är du knappast den första, och oftast hittar du svar på dina frågor genom en snabb googling. Forumet [StackExchange](https://stackexchange.com/) har troligen svaren på dina problem. I den här listan hittar du också svar på några vanliga frågor.
 
-<h3 id="2">Solu jäi jumiin eikä piirrä kuvaajaani tai aja koodiani?</h3>
 
-Jos solun ajamisessa kuluu joitain sekunteja pidempään ilman, että sen pitäisi tehdä mitään erityisen raskasta, on mahdollista että koodissa on virheellisesti kirjoitettu
-jokin silmukka johon koneen lukija jää jumiin. Pysäytä kernelin toiminta ja tarkista koodisi mahdollisten kitkakohtien varalta.
-Jos et löydä ongelmaa, yksinkertaista syntaksia kunnes olet varma, että palaset etenevät loogisesti haluttuun suuntaan.
 
-Yksi yleinen ongelma on, että syntaksivirhe ajaa koneen tekemään jotain väärää. Esimerkkitapaus: piirrät histogrammia yhdestä isomman datan sarakkeesta,
-mutta unohdat sarakkeen nimen koodista. Tällöin kone yrittää toteuttaa käskyäsi ja hämmentyy saamastaan koko datan sisältävästä taulukosta.
-Pysäytä kernelin toiminta ja korjaa muuttujien nimet oikein.
+<h3 id="2">Jag försökte köra en cell, men den blir inte klar och ritar inte ut min figur.</h3>
 
-<h3 id="3"> Virheilmoitus herjaa 'nimi is not defined' tai 'nimi does not exist'?</h3>
+Om cellen inte ska köra några komplicerade operationer så borde det inte ta mer än ett par sekunder att köra den. I såna fall kanske koden innehåller en loop som inte avslutas. Du kan stoppa kerneln och försöka köra koden igen med små ändringar. Om du inte hittar problemet, testa med en enklare syntax tills du är säker på att funktionerna i koden fungerar som du förväntar dig.
 
-Muuttujaa, johon viittaat, ei ole olemassa. Olethan muistanut varmasti ajaa tässä istunnossa sen solun, jossa kyseinen muuttuja määritellään?
-Muista myös kirjainkoon tarkka merkitys.
+<h3 id="3"> Felmeddelandet säger att "variabel is not defined" eller "variabel does not exist"</h3>
+
+Variabeln som koden refererar till har inte blivit definierad. Är du säker på att du har kört den cell som ska definiera variabeln?
+Kontrollera också att variabeln är korrekt skriven. Python gör skillnad på stora och små bokstäver.
 
 <h3 id="4">Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?</h3>
 
