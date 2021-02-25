@@ -12,13 +12,13 @@ Innehåll:
 - [Buhuu, jag kan inte!](#1)
 - [Jag försökte köra en cell, men den blir inte klar och ritar inte ut min figur.](#2)
 - [Felmeddelandet säger att "variabel is not defined" eller "variabel does not exist"](#3)  
-- [Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?](#4)
-- [Datani ei suostu lataamaan?](#5)
-- [Lataamassani datassa on jotain omituisia 'NaN'-arvoja?](#6)
-- [Yhdistin palasia datasta, mutta nyt en enää pysty tekemään asioita uudella muuttujallani?](#7) 
-- [Koodini ei toimi, vaikka se on ihan varmasti oikein kirjoitettu?](#8)
-- [Datan päivämäärät sekoittavat toiminnan, miten korjaan?](#9)
-- [Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?](#10)
+- [Jag försöker ändra en variabel, men print(variabel) ger resultatet "None"](#4)
+- [Min Datafil vill inte ladda in](#5)
+- [I datan jag laddat in finns NaN-värden.](#6)
+- [Jag slog ihop flera delar av min data till samma variabel, men nu fungerar inte min nya variabel.](#7) 
+- [Min kod fungerar inte, fastän den alldeles säkert är rätt skriven.](#8)
+- [Datan innehåller datum, som krånglar till formatet. Hur fixa?](#9)
+- [Jag kopierade data till en ny variabel, men efter det har originalvariabeln ändrats.](#10)
 
 
 <h3 id="1">Buhuu, jag kan inte!?</h3>
@@ -37,77 +37,116 @@ Om cellen inte ska köra några komplicerade operationer så borde det inte ta m
 Variabeln som koden refererar till har inte blivit definierad. Är du säker på att du har kört den cell som ska definiera variabeln?
 Kontrollera också att variabeln är korrekt skriven. Python gör skillnad på stora och små bokstäver.
 
-<h3 id="4">Yritän tallentaa muuttujaan asioita, mutta print(nimi) kertookin None?</h3>
+<h3 id="4">Jag försöker ändra en variabel, men print(variabel) ger resultatet "None" eller ett annat oväntat resultat</h3>
 
-Tallennuksessasi on jokin ongelma. Muista aina tallentaa tekemäsi operaatiot muuttujaan, eli esimerkiksi
-```python
-muuttuja = ... lataus datasta
-muuttuja = muuttuja*2
-```
-eikä
-```python
-muuttuja = ... lataus datasta
-muuttuja*2
-```
-Jos muuttujan tarkasteleminen palauttaa None, tällöin muuttujasi on tyhjä.
-Tarkasta, että haluamasi operaatio oikeasti on tehtävissä oleva eikä hajoa vaikkapa jonkin sisäfunktion vääriin syötteisiin.
-
-<h3 id="5">Datani ei suostu lataamaan?</h3>
-Tavallisia csv- ja vastaavia tekstitiedostoja voi tarkastella tekstinkäsittelyohjelmilla. Tällöin näet, millä merkillä arvot on eroteltu, miltä riviltä
-relevantti data alkaa tai onko tiedoston sisältö ylipäätään se mitä kuvittelit.
-
-Jakomerkit, otsikkorivit ja vastaavat voit määrittää lukufunktion parametreina, esimerkiksi
-```python
-pd.read_csv('linkki tiedostoon', sep = ';')
-```
-avaisi puolipisteellä erotetun csv:n.
-
-**pd.read_table()** voi auttaa selvittämään datan luonnetta jos ei jaksa avata tekstieditoria.
-
-Joskus ongelma johtuu merkistöjä ohjaavien koodien yhteensopimattomuudesta. Tällöin parametri **encoding** voi auttaa.
-Näistä löydät enemmän [täältä](https://docs.python.org/3/library/codecs.html#standard-encodings). Jos oletusasetus ei toimi, usein jokin ISO-variantti kelpaa.
-
-<h3 id="6">Lataamassani datassa on jotain omituisia 'NaN'-arvoja?</h3> 
-
-NaN, 'Not a Number', kertoo että tässä kohtaa dataa ei ole ymmärrettävää arvoa. Joko arvo on omituinen (kuten negatiivisen luvun neliöjuuri) tai sitä ei vain ole.
-
-Monet funktiot eivät välitä NaN-arvoista tai niiden parametreihin voi laittaa asetuksen, jolla ne eivät huomioi niiden olemassaoloa.
-Tämä helpottaa etenkin isojen datojen läpikäyntiä, kun kaikkia mahdollisia virheitä ei huomioida eikä kone jumitu törmätessään matemaattiseen mahdottomuuteen.
-
-<h3 id="7">Yhdistin palasia datasta, mutta nyt en enää pysty tekemään asioita uudella muuttujallani?</h3>
-
-Yhdistitkö eri tyyppisiä muuttujia? Kokonaisluvut (integer) ovat tietokoneelle erilaisia kuin desimaaleja ymmärtävät liukuluvut (float),
-jotka ovat erilaisia kuin teksti (string) ja niin edelleen.
-Joskus numerosarjakin voi olla kirjoitettu johonkin dataan stringinä, mikä on kovasti epämukavaa huomata jälkikäteen.
-Pythonissa on erilaisia vertailukomentoja, kuten isstring, joilla voi tarkistaa muuttujien tyypin.
-
-Yhdistithän palaset oikeisiin suuntiin? Jos halusit sarakkeet vierekkäin, niitä ei kannata vahingossa liittää peräkkäin yhdeksi pitkäksi sarakkeeksi.
-Tiedoston tarkastelu vaikkapa **len(nimi)** ja **nimi.head()** komennoilla on usein hyödyllistä näissä tilanteissa.
-
-
-<h3 id="8">Koodini ei toimi, vaikka se on ihan varmasti oikein kirjoitettu?</h3>
-
-Tarkista nyt kuitenkin, ettei ole piste väärässä kohdassa tai väärä kirjainkoko jossakin.
-Jos koodi ei ihan oikeasti vaan toimi vaikka pitäisi, syy voi löytyä kerneliin jääneistä aiemmista tiedoista muistissa.
-Näissä tapauksissa voi välillä vain kokeilla Kernel-valikosta Restart & Clear Outputtia ja uudelleen ajamista vaikka parikin kertaa.
-
-<h3 id="9">Datan päivämäärät sekoittavat toiminnan, miten korjaan?</h3>
-
-Päivämäärät saattavat tulla ilmoitettuina monessa muodossa. Jos oletusasetukset eivät saa dataa toimimaan nätisti, **pd.read_csv():n** [dokumentaatiosta](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html) näkyy millä sen parametreilla voi vaikuttaa päivämäärien tulkintaan. Esim. **dayfirst** tai **date_parser** saattavat ratkaista ongelman.
-Pythonissa on myös paketti [**time**](https://docs.python.org/3/library/time.html), josta löytyy varmasti sopivat palat tilanteeseen.
-
-<h3 id="10">Kopioin datan uuteen muuttujaan, jonka käsittelyn jälkeen huomaan alkuperäisen muuttujan arvojen vaihtuneen?</h3>
-
-Python operoi osoittimilla, joissa muuttujaan tallentuu oikeastaan tiedon itsensä sijaan paikkatieto siitä, mistä päin muistia kyseinen tieto löytyy.
-Kopioitaessa kokonaista datamuuttujaa toiseen muuttujaan yksittäisten rivien tai sarakkeiden sijaan saattaa käydä niin, että siinä ei oikeastaan tehdä muuta kuin
-viitataan vanhaan tietoon. Jos uudelle muuttujalle tehdään muutoksia, tällöin osoittimet vievät muutokset myös vanhaan dataan ja puf, sekin on muuttunut.
-Tätä sattuu joskus ja se on hitusen rasittavaa. Olemme huomanneet hyväksi kopioida alkuperäisen:
+Det är troligen något fel med hur du sparar informationen. Kom ihåg att alltid definiera variabeln när du ändrar den. Exempel:
 
 ```python
-uusiNimi = vanhaNimi.copy()
+variabel = 3
+variabel = variabel*2
+print(variabel)
 ```
-jolloin oikeasti tehdään uutta tietoa muistiin niin, ettei viittaus vahingossakaan tapahdu alkuperäiseen muuttujaan.
-Kiinnostavaa kyllä tätä ongelmaa ei tunnu esiintyvän muussa kuin koko datan kerralla siirtämisen yhteydessä, eli yksittäisten rivien erottelu uusiin muuttujiin tapahtuu
-ilman mitään viittausta alkuperäistietoihin.
+Denna kod skriver ut värdet på *variabel*, som är 6.
+
+Felexempel:
+```python
+variabel = 3
+variabel*2
+print(variabel)
+```
+Denna kod skriver ut värdet 3, eftersom man inte har definierat om *variabel*.
+
+
+<h3 id="5">Min Datafil vill inte ladda in</h3>
+Vanliga csv- eller motsvarande textfiler kan öppnas och undersökas med hjälp av ett vanligt textbehandlingsprogram. Du kan kontrollera vilka tecken som separerar värdena, på vilka rader den relevanta datan hittas eller om filen över huvud taget innehåller det du väntat dig. 
+
+Separationstecken, titelrader och annat kan bestämmas med hjälp av inläsningsfunktionens parametrar.
+
+
+```python
+pd.read_csv('länk till filen', sep = ';')
+```
+Den här koden läser in en csv-fil där värdena separeras med semikolon.
+
+
+**pd.read_table()** kan hjälpa dig undersöka Datans format om du inte vill öppna den i ett annat program.
+
+Ibland beror problemet på att fien innehåller tecken som inte kan tolkas med grundinställningarna. Då kan parametern **encoding** vara till hjälp. Du hittar mer info om parametern och olika teckenpaket [här](https://docs.python.org/3/library/codecs.html#standard-encodings). Om inte grundinställningen duger, fungerar oftast någon ISO-variant.
+
+
+<h3 id="6">I datan jag laddat in finns NaN-värden.</h3> 
+
+NaN, 'Not a Number', innebär att den här datan har ett värde som inte kan tolkas. Det kan innebära att värdet är odefinierat (t.ex. kvadratroten av ett negativt tal) eller att värdet bara saknas. 
+
+Många funktioner ignorerar NaN-värden (eller så kan parametrarna ändras så att de ignorerar dem). Det här är praktiskt när man går igenom stora datafiler. Annars kan alla möjliga småfel göra att koden hakar upp sig.
+
+
+
+<h3 id="7">Jag slog ihop flera delar av min data till samma variabel, men nu fungerar inte min nya variabel.</h3>
+
+Kombinerade du olika typer av variabler? Programmet gör skillnad på heltalsvariabler, *integer*, decimaltal, *float*, och text, *string*.
+Ibland kan en sifferserie bland datan vara definierad som en *string*, och det kan ställa till med problem när man ska göra beräkningar. Python har en del kontrollkommandon med hjälp av vilka man kan kontrollera variabelns format:
+
+```python
+# Vi kontrollerar om variabeln test_string är string med hjälp av type() 
+  
+# Vi skapar variabeln    
+test_string = "404"
+
+# Vi kontrollerar om variabeln är av typen string. Variabeln "kontroll" får värdet true eller false
+kontroll=type(test_string) == str
+  
+# Vi skriver ut resultatet 
+print("Variabeln är ", test_string, ". Är variabeln en string?")
+print(kontroll)
+```
+Koden skriver ut:
+
+Variabeln är  404 . Är variabeln en string?
+True
+
+Eller har du satt ihop flera sifferserier och vill ha dem som kolumner, men fick istället alla serier i en lång rad? Du kan kontrollera om så är fallet med hjälp av kommandona **len(variabel)** och **nimi.head()**
+
+```python
+# Vi skapar två listor
+test1 = (1, 2, 3, 4)
+test2 = (5, 6, 7, 8)
+
+# Vi slår ihop båda listorna till en och räknar elementen
+combo = test1 + test2
+print(combo)
+print("Variabeln är", len(combo),"celler lång")
+
+# Vi slår ihop listorna som två kolumner och räknar elementen
+combo = [test1, test2]
+print(combo)
+print("Variabeln är", len(combo),"celler lång")
+```
+(1, 2, 3, 4, 5, 6, 7, 8)
+Variabeln är 8 celler lång
+(1, 2, 3, 4), (5, 6, 7, 8)
+Variabeln är 2 celler lång
+
+
+<h3 id="8">Min kod fungerar inte, fastän den alldeles säkert är rätt skriven.</h3>
+
+Kontollera en extra gång att du inte saknar något kommatecken eller har fel case på bokstäverna.
+Om koden faktiskt är felfri och ändå inte fungerar så kan felet bero på att *kernel*n har sparat någon information som stör. I Kernel-menyn kan du då välja **Restart & Clear Output** och köra alla kodceller igen.
+
+
+<h3 id="9">Datan innehåller datum, som krånglar till formatet. Hur fixa?</h3>
+
+Datum kommer i många former, och kan ställa till det. Om originalinställningarna inte kan tolka det prydligt, så kan du hitta tips i [dokumentationen](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html) för **pd.read_csv()**. Exempelvis **dayfirst** eller **date_parser** kan vara till hjälp. I Python finns också paketet [**time**](https://docs.python.org/3/library/time.html), där man kan hitta rätt verktyg.
+
+
+<h3 id="10">Jag kopierade data till en ny variabel, men efter det har originalvariabeln ändrats.</h3>
+
+Variabler i python använder hänvisningar. Det innebär att variabeln egentligen bara sparar information om var dess värde hittas, inte själva värdet. Om du har kopierat en variabel till en annan (ex. *kopiaavinfo = info*) kan det ibland hända att den bara hänvisar till den andra variabeln. När du sedan ändrar den nya variabeln kan båda ändras. Ett bra sätt att komma undan detta när man kopierar en variabel är:
+
+```python
+kopiaavinfo = info.copy()
+```
+Då kommer inte den nya variabeln att i misstag hänvisa till den gamla.
+Det här problemet brukar märkligt nog bara uppkomma när man kopierar hela datasets. Om man bara kopierar enskilda kolumner fungerar det som det ska.
 
 
