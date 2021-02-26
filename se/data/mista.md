@@ -1,6 +1,6 @@
 ---
 title: Var hittar jag Data?
-lang: fi
+lang: se
 ref: mista
 category: data
 ---
