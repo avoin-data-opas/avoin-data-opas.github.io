@@ -1,40 +1,42 @@
 ---
-title: Esimerkkejä
-lang: fi
+title: Exempel
+lang: se
 ref: data-esimerkki
 category: data
 ---
 
-## Esimerkkitapaus datan lataamisesta ja käsittelystä
+## Att läsa in en datafil och framställa den visuellt
 
-Tehdään helppo esimerkki!
+Vi går genom ett enkelt exempel!
 
-- Etsitään aineistoa, kuten vaikka aikasarja auringonpilkuista [SIDC:n sivuilta](http://sidc.oma.be/silso/datafiles).
-- Tehdään muistio joka pystyy avaamaan sen:
+- Vi söker upp en datafil, exempelvis [den här från SIDCs hemsida](http://sidc.oma.be/silso/datafiles), som berör solfläckar.
+- Vi skapar en Notebook som kan öppna den:
 
-![kuva](../assets/img/aurinko1.png)
+![kuva](../../assets/img/aurinko1.png)
 
-- Lukeminen näyttää alkaneen huonosta kohtaa, käsketääs tulokseen mukaan otsikkorivi:
+- Det verkar som om tabellen läses in lite dåligt. Vi testar att ändra tabellens titel (header):
 
-![kuva](../assets/img/aurinko2.png)
+![kuva](../../assets/img/aurinko2.png)
 
-- No ei nyt ihan mennyt putkeen tämäkään, mutta huomaamme että syynähän on huonosti muotoiltu taulukko. Oletuserotin pd.read_csv() -komennolle on pilkku, mutta datassa näkyy puolipisteitä. Korjataan parametrilla "sep":
+- Det här verkar inte riktigt rätt heller. Problemet är att värdena i tabellen är separerade med semikolon. ".csv" står för "comma separated values", så vi måste ändra inställningarna för att tolka semikolon. Vi kan göra detta med hjälp av parametern "sep" (separator):
 
-![kuva](../assets/img/aurinko3.png)
+![kuva](../../assets/img/aurinko3.png)
 
-- Parempi. Nyt voi tietysti ihmetellä saisiko sarakkeet nimettyä paremmin, jos katsoo mitä kukin tarkoittaa (selitys SIDC:n sivuilla). Käytetään "names"-parametria latauksen yhteydessä. Voisi nämä nimetä muuttujassakin, mutta samalla vaivalla se pienillä tiedostoilla menee tässäkin.
 
-![kuva](../assets/img/aurinko4.png)
+- Det var bättre. För att göra tabellen lättare att förstå vill vi namnge kolumnerna. På SIDCs hemsida kan vi se vad värdena betyder. Genom att lägga till "names"-parametern kan vi ge varje kolumn en rubrik.
+- 
+![kuva](../../assets/img/aurinko4.png)
 
-- No johan alkaa näyttää ymmärrettävältä informaatiolta! Otetaan nopea kuvaaja pohjoisen ja eteläisen auringonpuoliskon pilkkuluvuista:
 
-![kuva](../assets/img/aurinko5.png)
+- Nu börjar det kännas som att tabellen går att förstå! Vi skapar en graf över solfläckarna på solens norra och södra halvklot:
 
-- Hahaa, voiton puolella. Tehdään vielä joukko muotoilutoimenpiteitä paremman esityksen nimissä:
+![kuva](../../assets/img/aurinko5.png)
 
-![kuva](../assets/img/aurinko6.png)
+- Nu är vi snart klara. VI gör ännu några ändringar för att göra grafen mer läslig:
+- 
+![kuva](../../assets/img/aurinko6.png)
 
-Ja siinä se sitten onkin. Haettiin dataa, katsottiin millaista se on, muotoiltiin se nätimmäksi ja esitettiin se kivana visualisaationa josta voidaan ryhtyä pureutumaan vaikka auringon monivuotisiin sykleihin tai jatkaa tarkemmin itse datan kanssa (selvitetään vaikka keskimääräiset päivittäiset pilkkumäärät ja niiden vuosittaiset vaihtelut).
+Där var det gjort. Vi läste in data, såg hurudant det var, gjorde det prydligare och framställde det visuellt. Med hjälp av grafen vi fick kan vi till exempel studera solens mångåriga cykler, och utgående från värdena i tabellen kan vi göra noggrannare beräkningar. (Vi kan till exempel ta reda på medeltalet solfläckar per dag under ett visst år, och förändringstakten från år till år)
 
-Kokeile itse samaa luomalla uusi muistio ja etsimällä kiintoisa datasetti (tai kopsaa osoite yltä)!
+Pröva själv att skapa en ny Notebook och söka upp något intressant dataset, eller använd filen från detta exempel!
 
