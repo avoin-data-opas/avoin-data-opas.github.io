@@ -111,17 +111,17 @@ se:
     url: /se/data.html 
     subfolderitems:
     - page: Vad är Data?
-      url: /data/mita.html
+      url: /se/data/mita.html
     - page: Var hittar jag Data?
-      url: /data/mista.html
+      url: /se/data/mista.html
     - page: Om filformat
-      url: /data/muodot.html
+      url: /se/data/muodot.html
     - page: CMS och OpenData
-      url: /data/cms-open-data.html
+      url: /se/data/cms-open-data.html
     - page: Andra sammanhang
-      url: /data/muita.html
+      url: /se/data/muita.html
     - page: Exempel
-      url: /data/esimerkki.html
+      url: /se/data/esimerkki.html
    
   - page: Exempellektion
     url: /se/tyopaja.html
