@@ -24,7 +24,9 @@ Vi går genom ett enkelt exempel!
 
 
 - Det var bättre. För att göra tabellen lättare att förstå vill vi namnge kolumnerna. På SIDCs hemsida kan vi se vad värdena betyder. Genom att lägga till "names"-parametern kan vi ge varje kolumn en rubrik.
-- 
+
+
+
 ![kuva](../../assets/img/aurinko4.png)
 
 
@@ -33,7 +35,9 @@ Vi går genom ett enkelt exempel!
 ![kuva](../../assets/img/aurinko5.png)
 
 - Nu är vi snart klara. VI gör ännu några ändringar för att göra grafen mer läslig:
-- 
+
+
+
 ![kuva](../../assets/img/aurinko6.png)
 
 Där var det gjort. Vi läste in data, såg hurudant det var, gjorde det prydligare och framställde det visuellt. Med hjälp av grafen vi fick kan vi till exempel studera solens mångåriga cykler, och utgående från värdena i tabellen kan vi göra noggrannare beräkningar. (Vi kan till exempel ta reda på medeltalet solfläckar per dag under ett visst år, och förändringstakten från år till år)
