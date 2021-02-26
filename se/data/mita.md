@@ -1,12 +1,12 @@
 ---
-title: Mitä data on
-lang: fi
+title: Vad är Data?
+lang: se
 ref: mita
 category: data
 ---
 
-## Mitä data on?
+## Vad är Data?
 
-Data ja informaatio ovat termejä, joihin törmää jatkuvasti. Syvempään semantiikkaan juuttumatta voidaan yleistäen todeta, että data sisältää jostain kerättyjä arvoja ja sitä analysoimalla saadaan aikaan informaatiota, josta voidaan jalostaa tietoa. Yksittäinen datan palanen (datum), kuten äänne tai tietokonebitti, ei itsessään välttämättä kerro mitään ilman selittävää kontekstia. Siirtymä datasta informaatioksi on suhteellisen sumuinen, huomioiden miten monivaiheisessa analyysissä hiotumpikin data voi toimia raaka-aineena vielä hienostuneemmalle vaiheelle.
+Data och information är termer som man ofta råkar på. Utan att gå desto djupare in på semantiken kan vi konstatera att *data* innehåller en samling mätvärden, och genom att analysera det får vi *information*, och därifrån kan vi sålla ut kunskap. En enda bit av data (data i singular är datum) är inte till någon nytta utan sammanhanget som ger den mening. Att skapa information från data är ingen rak process. Olika datasets kräver olika metoder och analysen kan göras på många sätt.
 
-Esimerkiksi hiukkaskiihdyttimen törmäyskokeiden tuloksia voidaan kerätä rautatasolla talteen datana, käsitellä tietokoneohjelmilla ihmisluettavaan ja informatiiviseen muotoon, mistä sitten voidaan tiedeyhteisön sisällä tiristää uutta tietoa irti. 
+Resultaten från kollisionstest i en partikelaccelerator, till exempel, kan samlas in som råa data och behandlas med program för att göra det läsligt och informativt för människor. Därifrån kan vi sedan inom forskningen skaka loss ny information.
