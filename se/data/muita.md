@@ -1,37 +1,31 @@
 ---
-title: Muita konteksteja
-lang: fi
+title: Andra sammanhang
+lang: se
 ref: muita
 category: data
 ---
 
-## Muita konteksteja kuin hiukkasfysiikkaa
+## Andra områden än partikelfysik
 
-Vaikka CMS-painotteisen projektimme ytimessä toimivatkin hiukkasfyysikot ja aiheesta kiinnostuneet opettajat, maailma on täynnä kiinnostavia tietoaineistoja muihinkin tarpeisiin. "Mistä löydän dataa"-sivulta löydät linkkejä hyviin tietolähteisiin, täältä taas valmiisiin harjoitteisiin.
+Fastän vårt projekt lägger vikt på CMS-projektet och ett intresse för partikelfysik, så är världen full av information om allt möjligt annat. På sidan [*var hittar jag Data?*](https://avoin-data-opas.github.io/se/data/mista) hittar du länkar till andra informationskällor, och här finns några färdiga övningar.
 
-### Meidän töitämme:
+### Våra övningar:
+
 
 **CERN_henkilöstö** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FCERN_henkilosto.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/CERN_henkilosto.ipynb)
-- Keitä CERNissä työskentelee?
+- Vem jobbar på CERN?
 
 **Kartat_esim** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FKartat_esim.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/Kartat_esim.ipynb)
-- Esimerkki karttojen käytöstä Pythonilla.
+- Exempel på hur man kan använda kartor i Python.
 
 **Taivasta_kartoittamassa** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FTaivasta_kartoittamassa.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/Taivasta_kartoittamassa.ipynb)
-- Tutkitaan tähtiä!
+- Vi undersöker sjärnor!
 
 **Tilastolaskentaa** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FTilastolaskentaa.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/Tilastolaskentaa.ipynb)
-- Tilastolliset tunnusluvut haltuun.
+- Statistikens karakteristikor.
 
 **Barometri_col_de_la_fausille** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2Fbarometri_col_de_la_fausille.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/barometri_col_de_la_fausille.ipynb)
-- Ilmanpainemittauksia omalla kännykällä.
+- lufttrycksmätningar med egen telefon.
 
 **Ääntä-datasta** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2Faanta-datasta.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/aanta-datasta.ipynb)
-- Miten datan voi muuttaa ääneksi?
-
-(Tähän tulee myös pidempi, moniosainen projekti verkkosivujen raapimisesta, luonnollisesta kielestä koneellisen analyysin materiaalina ja mainosalgoritmeista)
-
-### Muita vapaita materiaaleja verkosta:
-
-
--
+- Hur kan data omvandlas till ljud?
