@@ -1,6 +1,6 @@
 ---
 title: CMS och OpenData
-lang: fi
+lang: se
 ref: cms-open-data
 category: data
 ---
