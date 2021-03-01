@@ -1,6 +1,6 @@
 ---
 title: Exempellektion
-lang: fi
+lang: se
 ref: tyopaja
 category: tyopaja
 ---
