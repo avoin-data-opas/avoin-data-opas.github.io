@@ -67,7 +67,7 @@ VII Precis som med Binder, låter också Colab dig dela direktlänkar:
 
 #### Ladda ned material
 
-I Om du vill använda bitar av vår materialbank på din egen dator, måste du först ladda ned dem [GitHub-sivultamme](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish). 
+I Om du vill använda bitar av vår materialbank på din egen dator, måste du först ladda ned dem från vår [GitHub-sida](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish). 
 Du kan ladda ned hela innehållet på en gång som en zip-fil genom att klicka på "Code" och välja "Download ZIP":
 
 ![GitHub-materiaalien lataaminen](../../assets/img/github-materiaalien-lataaminen-nuolilla.png)
