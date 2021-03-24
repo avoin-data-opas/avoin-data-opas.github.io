@@ -5,10 +5,8 @@ ref: luo
 category: lyhyesti
 ---
 
-## Uuden Notebookin luominen
+# Oman muistion tekeminen
 
-Voit luoda uuden muistion joko avonaisen tiedoston tai kohdekansion valikon kautta.
+Käyttäessäsi Jupyter Notebookia selaimessa, voit tehdä uuden muistion painamalla *File -> New Notebook -> Python 3*.
 
 ![new](../assets/img/new.png)
-
-![new](../assets/img/tree2.png)

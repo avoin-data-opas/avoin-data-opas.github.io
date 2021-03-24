@@ -4,11 +4,11 @@ lang: fi
 ref: index
 ---
 
-## Tervetuloa avoimen datan pariin!
+# Tervetuloa avoimen datan pariin!
 
 Tältä sivulta löydät ohjeita ja lukiotason harjoitteita Python-kielellä ohjelmointiin avoimen datan parissa. Aihepiireihin mahtuu kaikenlaista hiukkasfysiikasta epidemiologiaan. Sisältö sopii omatoimiseen tutustumiseen, avuksi avoimen datan käyttöönoton kurssitukseen tai vaikkapa lisäprojektiksi uteliaalle opiskelijalle. Materiaaleihin sisään pääseminen ei edellytä aiempaa ohjelmointikokemusta.
 
-Nopeasti alkuun pääset aloittamalla viereisen valikon kohdasta "Lyhyesti". Tarkemmin tehtävissä käytettäviin teknologioihin voit perehtyä lisää osioissa "Jupyter Notebooks -ympäristö" ja "Python ohjelmointikielenä. "Alkuun datan kanssa"-osiosta taas löydät ohjeita tietoaineistojen etsimiseen, jotka voivat toimia inspiraationa omiin dataprojekteihin.
+Nopeasti alkuun pääset aloittamalla viereisen valikon kohdasta "Lyhyesti". Tarkemmin tehtävissä käytettäviin teknologioihin voit perehtyä lisää osioissa "Jupyter Notebooks -ympäristö" ja "Python ohjelmointikielenä. "Alkuun datan kanssa"-osiosta taas löydät ohjeita tietoaineistojen etsimiseen, jotka voivat toimia inspiraationa omiin dataprojekteihin. "Esimerkkityöpaja"-osiossa on rakenne-ehdotus noin 2,5 tunnin mittaiselle työpajalle.
 
 ![kuva](higgsOD.png)
 
@@ -16,12 +16,11 @@ Antoisaa puuhastelua avoimen datan äärellä!
 
 __________
 
-#### Järjestysehdotus ensialkuun:
+## Miten pääsen alkuun?
 
-1. Kokeile miltä Jupyter Notebookit näyttävät avaamalla yksi seuraavista painikkeista: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=TyokalutTutuiksi%2FTervetuloa-Jupyter-Notebookien-pariin!.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/TyokalutTutuiksi/Tervetuloa-Jupyter-Notebookien-pariin!.ipynb)
-2. Selaa viereisen valikon "Lyhyesti"-kohta läpi.
-3. Vilkaise [CMS:n avoin data opetuskäytössä -projektin GitHub-säilöä](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish)
-4. Tee oma .ipynb-muistiosi ja ohjelmoi jotakin, esimerkiksi simppeli kuvaaja, tottuaksesi käyttöliittymään.
-5. Selaa tätä sivua siinä sivussa.
-6. Jatka samaan malliin!
-
+1. Tutustu Jupyter Notebookiin ja Python-ohjelmointiin seuraavasta painikkeesta: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/opendata-education.github.io/HEAD?filepath=examples%2Fjupyter-intro.ipynb)
+1. Selaa vasemmalla oleva "Lyhyesti"-kohta läpi.
+1. Harjoittele Notebookin ja Pythonin käyttöä seuraavan muistion avulla: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/opendata-education.github.io/HEAD?filepath=examples%2Fdata-analyysi_esimerkki.ipynb)
+1. Tee oma .ipynb-muistiosi ja ohjelmoi jotakin, esimerkiksi simppeli kuvaaja.
+1. Tutustu materiaalipankkiimme [GitHub-sivullamme](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish), josta löydät lisää harjoitteita ja ohjeita. 
+1. Jatka samaan malliin!

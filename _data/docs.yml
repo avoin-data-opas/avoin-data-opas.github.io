@@ -2,17 +2,17 @@ fi:
   - page: Lyhyesti
     url: /lyhyesti.html
     subfolderitems:
-    - page: Missä materiaalit
+    - page: Materiaalit
       url: /lyhyesti/materiaalit.html
-    - page: Miten avaan sivun
-      url: /lyhyesti/avaa.html 
-    - page: Miten muokkaan sivua
+    - page: Miten avaan muistion
+      url: /lyhyesti/avaa.html
+    - page: Miten muokkaan muistiota
       url: /lyhyesti/muokkaa.html
-    - page: Miten luon oman sivun
+    - page: Miten teen oman muistion
       url: /lyhyesti/luo.html
-    - page: Miten tallennan vastaukset
+    - page: Miten tallennan muutokset
       url: /lyhyesti/tee-ja-tallenna.html
-    - page: Esimerkkisivu
+    - page: Esimerkkimuistio
       url: /lyhyesti/esimerkkisivu.html
       
   - page: Jupyter Notebooks -ympäristö
