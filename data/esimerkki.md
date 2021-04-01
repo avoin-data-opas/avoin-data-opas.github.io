@@ -7,7 +7,7 @@ category: data
 
 ## Esimerkkitapaus datan lataamisesta ja käsittelystä
 
-Tehdään helppo esimerkki!
+Tehdään esimerkki datan käsittelystä ja visualisoimisesta!
 
 - Etsitään aineistoa, kuten vaikka aikasarja auringonpilkuista [SIDC:n sivuilta](http://sidc.oma.be/silso/datafiles).
 - Tehdään muistio joka pystyy avaamaan sen:

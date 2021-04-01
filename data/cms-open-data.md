@@ -17,16 +17,16 @@ Raa'an tieteellisen datan lisäksi näistä aineistoista on karsittu tarkoitukse
 [Materiaalipankkimme](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/tree/master) 
 löytyy GitHubista, tarjoten ensisijaisesti inspiraatiota opettajille omien materiaaliensa tekoon, ja tarjoaa muun muassa seuraavia mahdollisuuksia:
 
-**Higgsin metsästystä** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FHiggs-hakusessa-4-leptonia.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb)
+**Higgsin metsästystä** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FHiggs-hakusessa-4-leptonia.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb)
 
 ![higgs](../assets/img/higgsOD.png)
 
-**Hiukkasten etsintää kahden myonin spektristä**  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FHiukkasetHukassa%2FHiukkasetHukassaOpettaja.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Opetusmateriaalit/HiukkasetHukassa/HiukkasetHukassaOpettaja.ipynb)
+**Hiukkasten etsintää kahden myonin spektristä**  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FHiukkasetHukassa%2FHiukkasetHukassaOpettaja.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Opetusmateriaalit/HiukkasetHukassa/HiukkasetHukassaOpettaja.ipynb)
 
 
 ![dimuon](../assets/img/dimuon.png)
 
-**Datan leikkelyä ja rajauskriteerejä** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FHistogrammien-vertailu-samassa-kuvassa.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Histogrammien-vertailu-samassa-kuvassa.ipynb)
+**Datan leikkelyä ja rajauskriteerejä** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FHistogrammien-vertailu-samassa-kuvassa.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Histogrammien-vertailu-samassa-kuvassa.ipynb)
 
 ![raj](../assets/img/eneRaj.png)
 

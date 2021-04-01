@@ -5,19 +5,14 @@ ref: esimerkki
 category: python
 ---
 
-## Esimerkki Python-harjoitteesta
+## Esimerkkinotebookeja
 
+Kokeile itse notebookien käyttöä! Näistä napeista saat avattua selaimeesi erilaisia harjoitteita.
+
+#### Esimerkki data-analyysista Pythonilla [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/opendata-education.github.io/HEAD?filepath=examples%2Fjupyter-intro.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/opendata-education/opendata-education.github.io/blob/master/examples/jupyter-intro.ipynb)
+
+#### Opettele Pythonia tekemällä itse data-analyysiharjoitus [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/opendata-education.github.io/HEAD?filepath=examples%2Fdata-analyysi_esimerkki.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/opendata-education/opendata-education.github.io/blob/master/examples/data-analyysi_esimerkki.ipynb)
+
+#### CERN:n CMS-kokeen avoimen datan käyttö Notebook-ympäristössä [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/Fysiikka/main?filepath=materiaali%2Fharjoitukset%2Fcms-esimerkki.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/opendata-education/Fysiikka/blob/main/materiaali/harjoitukset/cms-esimerkki.ipynb)
 
 ![esim](../assets/img/PyEsim.png)
-
-Kokeile itsekin! Näistä napeista saat avattua selaimeesi Notebook-harjoitteita.
-
-#### Tervetuloa-Jupyter-Notebookien-pariin! [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=TyokalutTutuiksi%2FTervetuloa-Jupyter-Notebookien-pariin!.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/TyokalutTutuiksi/Tervetuloa-Jupyter-Notebookien-pariin!.ipynb)
-- Nopea intro Notebookeihin
-
-#### Tervetuloa Jupyteriin - CMS ja avoin data [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=TyokalutTutuiksi%2FTervetuloa%20Jupyteriin%20-%20CMS%20ja%20avoin%20data.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/TyokalutTutuiksi/Tervetuloa%20Jupyteriin%20-%20CMS%20ja%20avoin%20data.ipynb)
-- CMS:n avoimen datan käyttö Notebook-ympäristössä
-
-Jos haluat syvemmän katsauksen Pythonin mahdollisuuksiin, tästä löydät kattavasti ohjeita:
-
-#### Ohjeita Pythonin käyttöön [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=TyokalutTutuiksi%2FOhjeita%20Pythonin%20k%C3%A4ytt%C3%B6%C3%B6n.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/TyokalutTutuiksi/Ohjeita%20Pythonin%20k%C3%A4ytt%C3%B6%C3%B6n.ipynb)

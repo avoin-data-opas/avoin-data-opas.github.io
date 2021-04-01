@@ -19,7 +19,7 @@ Pilkun sijaan tiedostossa voitaisiin käyttää erottimena sarkainta, puolipiste
 
 ![read](../assets/img/csvRead.png)
 
-Yllä näkyviä parametrejä ei tarvitse yleensä käsitellä tai edes nähdä koodaillessaan, mutta niitä voi halutessaan kutsua ja muokata.
+Yllä näkyviä parametrejä ei tarvitse yleensä käsitellä tai edes nähdä koodaillessaan, mutta niitä tarvitsee toisinaan muokata.
 
 ### Merkistöt
 
