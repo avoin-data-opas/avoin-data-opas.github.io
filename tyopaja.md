@@ -60,8 +60,9 @@ Tästä osiosta löydät hiukkasfysiikan harjoituksia CMS-ilmaisimesta kerättyy
 #### Histogrammi valitusta datamaarasta [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FEsim2-histogrammi-valitusta-datamaarasta.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Esim2-histogrammi-valitusta-datamaarasta.ipynb)
 - Tässä harjoituksessa voit interaktiivisesti kokeilla, miten käytetty datamäärä vaikuttaa piirrettyihin kuvaajiin.
 
-#### Sovite, poikittaisliikemäärä ja pseudorapiditeetti [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FSovite%2C%20poikittaisliikem%C3%A4%C3%A4r%C3%A4%20ja%20pseudorapiditeetti.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Sovite%2C%20poikittaisliikem%C3%A4%C3%A4r%C3%A4%20ja%20pseudorapiditeetti.ipynb)
-- Tässä tehtävässä pääset sovittamaan normaalijakauman hiukkasdataan ja tutustumaan poikittaisliikemäärän ja pseudorapiditeetin käsitteisiin.
+#### Sovitteen tekeminen [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/Fysiikka/main?filepath=materiaali%2Fharjoitukset%2Fcms-sovite.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/opendata-education/Fysiikka/blob/main/materiaali/harjoitukset/cms-sovite.ipynb)
+
+- Tässä tehtävässä pääset sovittamaan normaalijakauman histogrammiin.
 
 #### CMS-simulaatio [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FAvoinDataHiukkasfysiikassa%2F2_CMS-simulaatio.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Opetusmateriaalit/AvoinDataHiukkasfysiikassa/2_CMS-simulaatio.ipynb)
 - Kiinnostaako, miltä hiukkausten törmäykset näyttävät? Törmäykset tapahtuvat todellisuudessa niin nopeasti ja pienessä mittakaavassa, että niitä ei ole mahdollista nähdä tai valokuvata, mutta niitä voidaan mallintaa ohjelmistoilla kokeissa tallennetun datan perusteella. Yllä olevasta linkistä pääset tutkimaan hiukkasten törmäyksiä CMS-ilmasimessa kerätyn aidon datan perusteella.
@@ -70,25 +71,8 @@ Tästä osiosta löydät hiukkasfysiikan harjoituksia CMS-ilmaisimesta kerättyy
 
 ### 5. Lisäharjoitteita 40min
 
-Seuraavalta sivustolta löydät demonstraatioita, joissa sovelletaan dat-analytiikkaa ja ohjelmointia muihin kuin hiukkasfysiikan aiheisiin:
+Seuraavalta sivustolta löydät demonstraatioita, joissa sovelletaan data-analytiikkaa ja ohjelmointia muihin kuin hiukkasfysiikan aiheisiin:
 
 [https://opendata-education.github.io/fi/materiaalit](https://opendata-education.github.io/fi/materiaalit)
 
 Valitse sivulta haluamasi aihepiiri ja tutki esimerkkejä mielesi mukaan!
-
-Alla vielä muutama lisäesimerkki:
-
-#### 1854 koleraepidemia [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2F1854_koleraepidemia.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/1854_koleraepidemia.ipynb)
-- Data ja tilastot taistelussa kulkutauteja vastaan. Tiedät sittenkin, John Snow!
-
-#### CERN:in henkilöstö [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FCERN_henkilosto.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/CERN_henkilosto.ipynb)
-- Keitä CERN:ssä työskentelee? Tutkitaanpa vähän tilastoja!
-
-#### Taivasta kartoittamassa [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FTaivasta_kartoittamassa.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/Taivasta_kartoittamassa.ipynb)
-- Tutkitaan tähtiä!
-
-#### Barometri Col de la Fausille [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2Fbarometri_col_de_la_fausille.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/barometri_col_de_la_fausille.ipynb)
-- Tutkitaan ilmanpaineen riippuvuutta korkeudesta puhelimella tehdyn mittauksen perusteella.
-
-#### Ääntä datasta [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2Faanta-datasta.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/aanta-datasta.ipynb)
-- Miten datan voi muuttaa ääneksi? Tätä tehtävää varten kannattaa olla käytettävissä kuulokkeet tai muuten varmistua siitä, etteivät tehtävän äänet häiritse samassa tilassa työskenteleviä.
