@@ -17,6 +17,6 @@ Soluja pääsee muokkaamaan kaksoisklikkaamalla ja niiden sisällön suorittamin
 
 Työkalurivin **"Help"**-valikosta (tai painamalla **"h"** ilman soluvalintaa) löytyy lista pikanäppäimistä, joilla voi nopeuttaa työskentelyä.
 
-Tekemällä oppii kuitenkin parhaiten, joten [kokeile notebookin muokkaamista tästä](https://mybinder.org/v2/gh/opendata-education/opendata-education.github.io/HEAD?filepath=examples%2Fdata-analyysi_esimerkki.ipynb).
+Tekemällä oppii kuitenkin parhaiten, joten [kokeile notebookin muokkaamista tästä](https://mybinder.org/v2/gh/opendata-education/Python-ja-Jupyter/main?urlpath=tree/materiaali/harjoitukset/data-analyysi_esimerkki.ipynb).
 
 Omalla koneella olevia notebook-tiedostoja voi avata MyBinderissa valitsemalla *File -> Open* ja seuraavasta näkymästä *Upload*.
