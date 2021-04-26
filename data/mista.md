@@ -38,9 +38,9 @@ Muutamia hyviä paikkoja tietojen hakuun:
 - Maailmanpankin datapankki sisältää lukemattomat määrät erilaista - erityisesti valtiokohtaista - dataa aina hiilidioksidipäästöistä sukupuolten väliseen tasa-arvoon.
 - Katso myös maailmanpankin climateknowledgeportal [https://climateknowledgeportal.worldbank.org/download-data]().
 
-**CERN Open Data Portal** [http://opendata.cern.ch/](http://opendata.cern.ch/)
+**Zenodo** [https://zenodo.org/](https://zenodo.org/)
 
-- Valtavat määrät tutkimus- ja opetustason datasettejä. Valintatyökaluista voi etsiä näppärästi esim. koeaseman ja tiedostotyypin mukaan haluamiaan materiaaleja.
+- Monialainen avoimen tutkimusdatan hakemistopalvelu. Luotu ja ylläpidetty CERN:n ja OpenAIRE:n toimesta.
 
 **Our World in Data** [https://ourworldindata.org/](https://ourworldindata.org/)
 
