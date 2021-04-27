@@ -18,4 +18,7 @@ materiaalipankki:
   fi: "Materiaalipankki"
   en: "Material bank"
   se: "Materialbank"
-
+youtube-kanava:
+  fi: "YouTube-kanava"
+  en: "YouTube channel"
+  se: "YouTube-kanal"
